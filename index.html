@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jolanda's Business — XR & AI for Human-Centered Innovation. Strategic consulting in Extended Reality, Artificial Intelligence, and Human Factors.">
+<meta name="theme-color" content="#0a0a0f">
+<title>Jolanda's Business — XR & AI Consulting</title>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════ STICKY NAV ═══════════ -->
+<nav class="nav" id="nav" aria-label="Main navigation">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo" aria-label="Home">Jolanda's Business</a>
+    <button class="nav__hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#services" class="nav__link">Services</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#work" class="nav__link">Work</a></li>
+      <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════ SCROLL PROGRESS ═══════════ -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ═══════════ SECTION 1: HERO ═══════════ -->
+<section class="hero section" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__orb hero__orb--xr"></div>
+    <div class="hero__orb hero__orb--ai"></div>
+    <div class="hero__orb hero__orb--hf"></div>
+  </div>
+  <div class="hero__content">
+    <h1 class="hero__tagline">
+      <span class="hero__line hero__line--1">XR <span class="accent-xr">&amp;</span> AI</span>
+      <span class="hero__line hero__line--2">for Human-Centered</span>
+      <span class="hero__line hero__line--3">Innovation</span>
+    </h1>
+    <p class="hero__sub">Bridging emerging technology with human needs — strategic consulting in Extended Reality, Artificial Intelligence, and Human Factors.</p>
+    <div class="hero__ctas">
+      <a href="#contact" class="btn btn--primary">Book a Discovery Call</a>
+      <a href="#services" class="btn btn--secondary">Explore Services &darr;</a>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <span>Scroll</span>
+    <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><path d="M8 0v16M2 10l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 2: PROBLEM ═══════════ -->
+<section class="problem section" id="problem">
+  <div class="container">
+    <h2 class="section__title">The XR-AI opportunity is real.<br><span class="accent-amber">The path is not.</span></h2>
+    <p class="section__subtitle">Organizations today face three converging challenges that demand expert guidance.</p>
+    <div class="grid grid--3 problem__cards reveal-group">
+      <article class="card problem__card">
+        <div class="card__icon card__icon--xr" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 4L4 14v12l16 10 16-10V14L20 4z" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 class="card__title">XR Complexity</h3>
+        <p class="card__text">Which platform? What's proven vs hype? How to deploy at scale without costly missteps?</p>
+      </article>
+      <article class="card problem__card">
+        <div class="card__icon card__icon--ai" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="2"/><path d="M20 8v24M8 20h24" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="20" cy="12" r="2" fill="currentColor"/><circle cx="28" cy="20" r="2" fill="currentColor"/><circle cx="20" cy="28" r="2" fill="currentColor"/><circle cx="12" cy="20" r="2" fill="currentColor"/></svg>
+        </div>
+        <h3 class="card__title">AI Uncertainty</h3>
+        <p class="card__text">Where does AI actually add value? How to build trustworthy, human-centered systems?</p>
+      </article>
+      <article class="card problem__card">
+        <div class="card__icon card__icon--hf" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="card__title">Human Factors Blind Spots</h3>
+        <p class="card__text">Will users adopt it? Is it safe, usable, and inclusive for everyone?</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 3: SERVICES ═══════════ -->
+<section class="services section" id="services">
+  <div class="container">
+    <h2 class="section__title">What I <span class="accent-magenta">Offer</span></h2>
+    <p class="section__subtitle">Three pillars of expertise — one integrated approach.</p>
+    <div class="grid grid--3 services__grid reveal-group">
+      <article class="card service-card service-card--xr">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 6L6 16v16l18 10 18-10V16L24 6z" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/><path d="M24 16a8 8 0 100 16" stroke="currentColor" stroke-width="2" opacity="0.3"/></svg>
+        </div>
+        <h3 class="service-card__title">XR Strategy &amp; Design</h3>
+        <p class="service-card__text">Feasibility assessment, platform selection, prototype evaluation, and deployment planning for VR, AR, and Mixed Reality environments.</p>
+        <ul class="service-card__outcomes">
+          <li>De-risked XR investment</li>
+          <li>Clear technology roadmap</li>
+          <li>Validated use cases</li>
+        </ul>
+      </article>
+      <article class="card service-card service-card--ai">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><path d="M24 6v36M6 24h36" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><circle cx="24" cy="12" r="3" fill="currentColor"/><circle cx="36" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="36" r="3" fill="currentColor"/><circle cx="12" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="24" r="3" fill="currentColor"/></svg>
+        </div>
+        <h3 class="service-card__title">AI Readiness &amp; Governance</h3>
+        <p class="service-card__text">Human-centered AI assessment, responsible AI frameworks, and human-AI teaming evaluation for trustworthy deployment.</p>
+        <ul class="service-card__outcomes">
+          <li>Trustworthy AI systems</li>
+          <li>Regulatory readiness</li>
+          <li>User trust &amp; adoption</li>
+        </ul>
+      </article>
+      <article class="card service-card service-card--hf">
+        <div class="service-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"/><path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 30l-4 6m20-6l4 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/></svg>
+        </div>
+        <h3 class="service-card__title">Human Factors Evaluation</h3>
+        <p class="service-card__text">UX and usability assessment, presence and immersion measurement, accessibility audit, and safety evaluation for immersive systems.</p>
+        <ul class="service-card__outcomes">
+          <li>Evidence-based improvements</li>
+          <li>Reduced user error</li>
+          <li>Inclusive design</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 4: CASE STUDIES ═══════════ -->
+<section class="work section" id="work">
+  <div class="container">
+    <h2 class="section__title">Selected <span class="accent-cyan">Work</span></h2>
+    <p class="section__subtitle">Recent engagements and research that demonstrate impact.</p>
+    <div class="work__grid reveal-group">
+      <article class="card work-card">
+        <div class="work-card__tag work-card__tag--xr">XR Strategy</div>
+        <h3 class="work-card__title">EuroXR Delphi Consensus Study</h3>
+        <p class="work-card__text">Led a 10-week Delphi consensus study with 40+ XR experts across Europe, resulting in the State-of-XR book (Wiley-Scrivener, 2022) — the first comprehensive cross-sector analysis of XR maturity and research priorities.</p>
+      </article>
+      <article class="card work-card">
+        <div class="work-card__tag work-card__tag--ai">AI Readiness</div>
+        <h3 class="work-card__title">CORTEX² XR Innovator Review</h3>
+        <p class="work-card__text">Served as research proposal reviewer for CORTEX² (EU Grant 101070192), evaluating XR innovator companies — startups, SMEs, and research institutions — for Open Calls in remote collaboration through XR.</p>
+      </article>
+      <article class="card work-card">
+        <div class="work-card__tag work-card__tag--hf">Human Factors</div>
+        <h3 class="work-card__title">Medical VR Landscape Analysis</h3>
+        <p class="work-card__text">Conducted a comprehensive analysis of evidence-based health and wellbeing XR applications for MedVR (USA), developing a taxonomy of application areas and coordinating a medical speaker webinar series.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 5: ABOUT ═══════════ -->
+<section class="about section" id="about">
+  <div class="container">
+    <h2 class="section__title">About <span class="accent-amber">Dr. Tromp</span></h2>
+    <div class="about__content reveal-group">
+      <div class="about__photo">
+        <div class="about__photo-placeholder" aria-label="Dr. Jolanda G. Tromp portrait">
+          <svg viewBox="0 0 200 200" fill="none"><circle cx="100" cy="80" r="40" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M20 190c0-44.183 35.817-80 80-80s80 35.817 80 80" stroke="currentColor" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg>
+          <span>Photo</span>
+        </div>
+      </div>
+      <div class="about__bio">
+        <p><strong>Dr. Jolanda G. Tromp</strong> is a Professor of Extended Reality, Human-Computer Interaction, and Intelligent Systems at Duy Tan University (Vietnam), with <strong>25+ years</strong> of experience spanning research, industry, and consultancy across Europe, the US, and Asia.</p>
+        <p>She has worked with organizations from <strong>Motorola</strong> and the <strong>University of Nottingham</strong> to the <strong>European Parliament</strong>, <strong>SUNY</strong>, and the <strong>EuroXR Association</strong> — leading projects in XR strategy, AI readiness, human factors evaluation, and immersive collaboration.</p>
+        <p>Her work bridges the gap between what technology makes possible and what people actually need — grounded in rigorous research and delivered with practical focus.</p>
+        <div class="about__logos">
+          <span class="about__logo-tag">EuroXR</span>
+          <span class="about__logo-tag">DTU</span>
+          <span class="about__logo-tag">SUNY</span>
+          <span class="about__logo-tag">Motorola</span>
+          <span class="about__logo-tag">Univ. Nottingham</span>
+          <span class="about__logo-tag">EU Parliament</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 6: PROCESS ═══════════ -->
+<section class="process section" id="process">
+  <div class="container">
+    <h2 class="section__title">How I <span class="accent-cyan">Work</span></h2>
+    <p class="section__subtitle">A clear, proven methodology — from discovery to delivery.</p>
+    <div class="process__steps reveal-group">
+      <div class="process__step">
+        <div class="process__step-num" aria-hidden="true">01</div>
+        <h3 class="process__step-title">Discover</h3>
+        <p class="process__step-text">We map your context, goals, constraints, and user needs through structured discovery sessions.</p>
+      </div>
+      <div class="process__arrow" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 16h24M20 8l8 8-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="process__step">
+        <div class="process__step-num" aria-hidden="true">02</div>
+        <h3 class="process__step-title">Analyze</h3>
+        <p class="process__step-text">Evidence-based assessment of feasibility, risks, opportunities, and human factors impact.</p>
+      </div>
+      <div class="process__arrow" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 16h24M20 8l8 8-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="process__step">
+        <div class="process__step-num" aria-hidden="true">03</div>
+        <h3 class="process__step-title">Deliver</h3>
+        <p class="process__step-text">Clear recommendations, actionable roadmap, validated prototype, or strategic guidance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 7: TESTIMONIALS ═══════════ -->
+<section class="testimonials section" id="testimonials">
+  <div class="container">
+    <h2 class="section__title">What People <span class="accent-magenta">Say</span></h2>
+    <div class="testimonials__grid reveal-group">
+      <blockquote class="card testimonial-card">
+        <p class="testimonial-card__text">"Dr. Tromp's expertise in XR evaluation and human factors is exceptional. Her Delphi consensus work provided the XR community with a rigorous, data-driven foundation for research priorities."</p>
+        <footer class="testimonial-card__author">
+          <strong>Prof. Ilias El Makrini</strong>
+          <span>Vrije Universiteit Brussel, AugmentX Lab</span>
+        </footer>
+      </blockquote>
+      <blockquote class="card testimonial-card">
+        <p class="testimonial-card__text">"Jolanda brings a rare combination of deep technical knowledge and human-centered perspective. Her ability to bridge XR capabilities with real-world user needs was invaluable to our project."</p>
+        <footer class="testimonial-card__author">
+          <strong>Cederik Haverbeke</strong>
+          <span>ExecutXR, Technical Lead</span>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SECTION 8: CONTACT ═══════════ -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <h2 class="section__title">Let's <span class="accent-cyan">Talk</span></h2>
+    <p class="section__subtitle">Ready to explore how we can work together? Reach out and let's start the conversation.</p>
+    <div class="contact__content reveal-group">
+      <div class="contact__info">
+        <div class="contact__item">
+          <span class="contact__label">Email</span>
+          <a href="mailto:jolanda.tromp@duytan.edu.vn" class="contact__value">jolanda.tromp@duytan.edu.vn</a>
+        </div>
+        <div class="contact__item">
+          <span class="contact__label">LinkedIn</span>
+          <a href="https://linkedin.com/in/jolanda-tromp-phd-638b84a" target="_blank" rel="noopener" class="contact__value">Connect on LinkedIn &nearr;</a>
+        </div>
+        <div class="contact__item">
+          <span class="contact__label">Based in</span>
+          <span class="contact__value">Vietnam / Europe (Remote)</span>
+        </div>
+      </div>
+      <form class="contact__form" id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+        <label class="contact__field">
+          <span class="contact__field-label">Name</span>
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label class="contact__field">
+          <span class="contact__field-label">Email</span>
+          <input type="email" name="email" required placeholder="your@email.com">
+        </label>
+        <label class="contact__field">
+          <span class="contact__field-label">Message</span>
+          <textarea name="message" rows="4" required placeholder="Tell me about your project..."></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary contact__submit">Send Message</button>
+        <p class="contact__form-fallback" id="formFallback">Or email directly: <a href="mailto:jolanda.tromp@duytan.edu.vn">jolanda.tromp@duytan.edu.vn</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; 2026 Jolanda's Business. All rights reserved.</p>
+      <a href="#hero" class="footer__top" aria-label="Back to top">&uarr; Top</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js" defer></script>
+</body>
+</html>
