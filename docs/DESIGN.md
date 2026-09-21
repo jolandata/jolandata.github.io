@@ -162,7 +162,7 @@ I help you answer these questions with clarity and confidence.
 
 Dr. Jolanda G. Tromp is a Professor of Extended Reality, Human-Computer Interaction, and Intelligent Systems at Duy Tan University (Vietnam), with 25+ years of experience spanning research, industry, and consultancy across Europe, the US, and Asia.
 
-She has worked with organizations from Motorola and the University of Nottingham to the European Commission and SUNY, leading projects in XR strategy, AI readiness, human factors evaluation, and immersive collaboration.
+She has worked with organizations from Motorola and the University of Nottingham to the European Commission and State University of New York (SUNY), leading projects in XR strategy, AI readiness, human factors evaluation, and immersive collaboration.
 
 Her work bridges the gap between what technology makes possible and what people actually need — grounded in rigorous research and delivered with practical focus.
 
