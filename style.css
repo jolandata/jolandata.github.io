@@ -186,6 +186,7 @@
   .nav__logo-img {
     width: 46px;
     height: 46px;
+    border-radius: 12px;
     flex: none;
     animation: navBreathe 2.8s ease-in-out infinite !important;
   }
