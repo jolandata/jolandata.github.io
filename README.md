@@ -99,8 +99,11 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 
 - Added vector logo mark (`imgs/logo.svg` — XR orbit + AI nodes + human-centred arc), wired into the nav.
 - Enhanced hero background: subtle grid + three accent radial glows + edge vignette (`hero__bg::after`).
-- Contact form: added mailto: fallback (works now); Formspree ID still required for the hosted endpoint.
-- Verified: SVG valid XML, HTML parses, CSS braces balanced. Committed + pushed.
+- Added professional headshot (`imgs/headshot.jpg`) to the About section.
+- Replaced Formspree with a self-owned contact form (mailto composition; no third party).
+- Contact section: removed the info column (Email / LinkedIn / Based in); the form is now a single centered column.
+- Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
+- Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
 ### 2026-08-28
 
