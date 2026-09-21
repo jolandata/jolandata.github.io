@@ -58,52 +58,31 @@ if (revealGroups.length > 0 && 'IntersectionObserver' in window) {
   revealGroups.forEach(group => group.classList.add('visible'));
 }
 
-// ── CONTACT FORM (Formspree) ──
+// ── CONTACT FORM (self-owned) ──
+// No third-party service: submitting composes a prefilled email in the visitor's
+// client. Runs entirely client-side; nothing is sent to a server or stored.
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
-  contactForm.addEventListener('submit', async (e) => {
+  contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // If the Formspree ID is still the placeholder, route through a mailto: message
-    // so the contact form works before a real form endpoint is configured.
-    if (contactForm.action.includes('your-form-id')) {
-      const data = new FormData(contactForm);
-      const name = data.get('name') || 'a visitor';
-      const email = data.get('email') || '';
-      const message = data.get('message') || '';
-      const subject = 'Jolanda website enquiry from ' + name;
-      const body = (message + '\n\n— ' + name + (email ? ' <' + email + '>' : '')).replace(/\r?\n/g, '%0A').replace(/#/g, '%23');
-      window.location.href =
-        'mailto:jolanda.tromp@duytan.edu.vn?subject=' + encodeURIComponent(subject) + '&body=' + body;
-      const fb = document.getElementById('formFallback');
-      if (fb) fb.textContent = "Your email client should open — if it didn't, email directly: ";
-      return;
-    }
+    const data = new FormData(contactForm);
+    const name = data.get('name') || 'a visitor';
+    const email = data.get('email') || '';
+    const message = data.get('message') || '';
+    const subject = 'Jolanda website enquiry from ' + name;
+    const body = (message + '\n\n— ' + name + (email ? ' <' + email + '>' : ''))
+      .replace(/\r?\n/g, '%0A')
+      .replace(/#/g, '%23');
 
-    const submitBtn = contactForm.querySelector('.contact__submit');
-    const originalText = submitBtn.textContent;
+    window.location.href =
+      'mailto:jolanda.tromp@duytan.edu.vn?subject=' + encodeURIComponent(subject) + '&body=' + body;
 
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
-
-    try {
-      const formData = new FormData(contactForm);
-      const response = await fetch(contactForm.action, {
-        method: 'POST',
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      });
-
-      if (response.ok) {
-        contactForm.innerHTML = '<p class="contact__success">Thank you! Your message has been sent. I\'ll get back to you within 48 hours.</p>';
-      } else {
-        throw new Error('Form submission failed');
-      }
-    } catch (err) {
-      submitBtn.disabled = false;
-      submitBtn.textContent = originalText;
-      document.getElementById('formFallback').style.display = 'block';
+    const ok = document.getElementById('formSuccess');
+    if (ok) {
+      ok.hidden = false;
+      ok.textContent = 'Your email client should open with the message ready to send.';
     }
   });
 }

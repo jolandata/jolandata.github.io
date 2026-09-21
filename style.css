@@ -799,11 +799,10 @@
     align-self: flex-start;
   }
 
-  .contact__form-fallback {
+  .contact__form-note {
     font-size: 0.8rem;
     color: var(--text-muted);
     margin-top: 0.5rem;
-    display: none;
   }
 
   .contact__success {
@@ -812,7 +811,7 @@
     color: var(--accent-xr);
   }
 
-  .contact__form-fallback a {
+  .contact__form-note a {
     color: var(--accent-xr);
     text-decoration: underline;
   }
