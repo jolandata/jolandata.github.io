@@ -26,7 +26,7 @@
 
   <!-- human-centred glowing core -->
   <circle class="hr-core" cx="320" cy="320" r="54" fill="#ffb84d"/>
-  <circle cx="300" cy="298" r="14" fill="#fff3d6" opacity="0.95"/>
+  <circle class="hr-core-hi" cx="300" cy="298" r="14" fill="#fff3d6" opacity="0.95"/>
   <path class="hr-wave" d="M232 424 Q320 462 408 424" fill="none" stroke="#ffcf70" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
 
   <!-- AI node constellation -->

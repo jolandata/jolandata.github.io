@@ -190,19 +190,17 @@
   }
 
   .nav__logo-emblem {
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     flex: none;
-    filter: drop-shadow(0 0 9px rgba(0, 212, 255, 0.3));
+    filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.35));
   }
 
-  .nav__logo-emblem .hr-halo { animation: hrHaloPulse 6s ease-in-out infinite; }
+  .nav__logo-emblem .hr-halo { animation: hrGlow 3s ease-in-out infinite !important; }
 
-  .nav__logo-emblem .hr-dash {
-    animation: hrSpin 25s linear infinite;
-    transform-origin: 320px 320px;
-    transform-box: fill-box;
-  }
+  .nav__logo-emblem .hr-dash { animation: hrDash 5s linear infinite !important; }
+
+  .nav__logo-emblem .hr-core-hi { animation: hrTwinkle 2.4s ease-in-out infinite !important; }
 
   .nav__links {
     display: flex;
@@ -458,28 +456,30 @@
     animation: heroFloat 9s ease-in-out infinite;
   }
 
-  .hero__emblem .hr-halo { animation: hrHaloPulse 6s ease-in-out infinite; }
+  .hero__emblem .hr-dash { animation: hrDash 6s linear infinite !important; }
 
-  .hero__emblem .hr-dash {
-    animation: hrSpin 55s linear infinite;
-    transform-origin: 320px 320px;
-    transform-box: fill-box;
-  }
+  .hero__emblem .hr-halo { animation: hrGlow 3s ease-in-out infinite !important; }
 
-  .hero__emblem .hr-nodes { animation: heroFloat 6s ease-in-out infinite 0.4s; }
+  .hero__emblem .hr-core-hi { animation: hrTwinkle 2.4s ease-in-out infinite !important; }
+
+  .hero__emblem .hr-nodes { animation: heroFloat 5s ease-in-out infinite 0.4s; }
 
   @keyframes heroFloat {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-7px); }
   }
 
-  @keyframes hrHaloPulse {
-    0%, 100% { opacity: 0.55; }
-    50% { opacity: 1; }
+  /* Robust brand motion — no SVG transforms: circulating dashes + breathing glow + twinkle. */
+  @keyframes hrDash { to { stroke-dashoffset: -52; } }
+
+  @keyframes hrGlow {
+    0%, 100% { opacity: 0.35; }
+    50% { opacity: 0.9; }
   }
 
-  @keyframes hrSpin {
-    to { transform: rotate(360deg); }
+  @keyframes hrTwinkle {
+    0%, 100% { opacity: 0.45; }
+    50% { opacity: 1; }
   }
 
   .hero__sub {
