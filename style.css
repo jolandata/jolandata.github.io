@@ -173,11 +173,20 @@
   }
 
   .nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
     font-family: var(--ff-display);
     font-weight: 700;
     font-size: 1.2rem;
     color: var(--text-primary);
     letter-spacing: -0.02em;
+  }
+
+  .nav__logo-img {
+    width: 30px;
+    height: 30px;
+    flex: none;
   }
 
   .nav__links {
@@ -336,6 +345,20 @@
     inset: 0;
     overflow: hidden;
     z-index: 0;
+    background:
+      radial-gradient(120% 140% at 85% 12%, rgba(0, 212, 255, 0.10), transparent 45%),
+      radial-gradient(120% 140% at 12% 88%, rgba(255, 75, 148, 0.08), transparent 45%),
+      radial-gradient(110% 130% at 70% 70%, rgba(255, 179, 71, 0.05), transparent 40%),
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px) 0 0 / 42px 42px,
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px) 0 0 / 42px 42px;
+  }
+
+  .hero__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(75% 75% at 50% 40%, transparent 55%, rgba(0, 0, 0, 0.45) 100%);
+    pointer-events: none;
   }
 
   .hero__orb {
@@ -769,6 +792,13 @@
     font-size: 0.8rem;
     color: var(--text-muted);
     margin-top: 0.5rem;
+    display: none;
+  }
+
+  .contact__success {
+    font-family: var(--ff-display);
+    font-size: 1.05rem;
+    color: var(--accent-xr);
   }
 
   .contact__form-fallback a {

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Jolanda's Business — XR, AI and Human Factors mark">
+  <!-- XR orbit -->
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#00d4ff" stroke-width="3"/>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#00d4ff" stroke-width="1.5" stroke-dasharray="7 11" opacity="0.45"/>
+  <!-- AI node constellation -->
+  <g stroke="#ff4d94" stroke-width="2" opacity="0.85">
+    <line x1="87" y1="46" x2="99" y2="60"/>
+    <line x1="87" y1="46" x2="96" y2="76"/>
+    <line x1="99" y1="60" x2="96" y2="76"/>
+  </g>
+  <circle cx="87" cy="46" r="3.5" fill="#ff4d94"/>
+  <circle cx="99" cy="60" r="3.5" fill="#ff4d94"/>
+  <circle cx="96" cy="76" r="3.5" fill="#ff4d94"/>
+  <!-- Human-centred arc: head + shoulders -->
+  <circle cx="60" cy="80" r="12" fill="none" stroke="#ffb347" stroke-width="3"/>
+  <path d="M41 97 Q60 107 79 97" fill="none" stroke="#ffb347" stroke-width="3" stroke-linecap="round"/>
+</svg>

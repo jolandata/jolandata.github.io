@@ -65,6 +65,22 @@ if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
+    // If the Formspree ID is still the placeholder, route through a mailto: message
+    // so the contact form works before a real form endpoint is configured.
+    if (contactForm.action.includes('your-form-id')) {
+      const data = new FormData(contactForm);
+      const name = data.get('name') || 'a visitor';
+      const email = data.get('email') || '';
+      const message = data.get('message') || '';
+      const subject = 'Jolanda website enquiry from ' + name;
+      const body = (message + '\n\n— ' + name + (email ? ' <' + email + '>' : '')).replace(/\r?\n/g, '%0A').replace(/#/g, '%23');
+      window.location.href =
+        'mailto:jolanda.tromp@duytan.edu.vn?subject=' + encodeURIComponent(subject) + '&body=' + body;
+      const fb = document.getElementById('formFallback');
+      if (fb) fb.textContent = "Your email client should open — if it didn't, email directly: ";
+      return;
+    }
+
     const submitBtn = contactForm.querySelector('.contact__submit');
     const originalText = submitBtn.textContent;
 

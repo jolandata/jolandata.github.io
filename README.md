@@ -11,7 +11,7 @@ Built with raw HTML/CSS/JS. Hosted on GitHub Pages.
 **Current phase:** 🚀 Gate 6 — Test & Launch (Live)
 **Overall status:** Site live at https://jolandata.github.io — shippable
 **Priority:** High
-**Last updated:** 2026-08-28
+**Last updated:** 2026-09-21
 
 ## OBJECTIVE
 
@@ -32,10 +32,10 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 
 ## NEXT ACTIONS
 
-1. Set up Formspree form endpoint → replace `your-form-id` in index.html
-2. Add professional headshot to About section
-3. Refine logo as SVG vector
-4. Add hero background visual
+1. Add real Formspree form ID → replace `your-form-id` in index.html (mailto fallback active meanwhile)
+2. Add professional headshot to About section (needs photo)
+3. Refine logo as SVG vector — ✅ done (imgs/logo.svg in nav)
+4. Add hero background visual — ✅ done (grid + radial glows + vignette)
 
 ## OPEN QUESTIONS
 
@@ -94,6 +94,13 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 — None
 
 ## WORK LOG
+
+### 2026-09-21
+
+- Added vector logo mark (`imgs/logo.svg` — XR orbit + AI nodes + human-centred arc), wired into the nav.
+- Enhanced hero background: subtle grid + three accent radial glows + edge vignette (`hero__bg::after`).
+- Contact form: added mailto: fallback (works now); Formspree ID still required for the hosted endpoint.
+- Verified: SVG valid XML, HTML parses, CSS braces balanced. Committed + pushed.
 
 ### 2026-08-28
 
