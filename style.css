@@ -720,61 +720,16 @@
     margin: 0 auto;
   }
 
-  .contact__form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .contact__field {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-  }
-
-  .contact__field-label {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    font-weight: 500;
-  }
-
-  .contact__field input,
-  .contact__field textarea {
-    padding: 0.75rem 1rem;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text-primary);
-    font-family: var(--ff-body);
-    font-size: 0.95rem;
-    transition: border-color var(--transition);
-  }
-
-  .contact__field input::placeholder,
-  .contact__field textarea::placeholder {
-    color: var(--text-muted);
-  }
-
-  .contact__field input:focus,
-  .contact__field textarea:focus {
-    outline: none;
-    border-color: var(--accent-xr);
-  }
-
-  .contact__submit {
-    align-self: flex-start;
+  .booking-btn {
+    display: block;
+    margin: 0 auto;
   }
 
   .contact__form-note {
     font-size: 0.8rem;
     color: var(--text-muted);
-    margin-top: 0.5rem;
-  }
-
-  .contact__success {
-    font-family: var(--ff-display);
-    font-size: 1.05rem;
-    color: var(--accent-xr);
+    margin-top: 1rem;
+    text-align: center;
   }
 
   .contact__form-note a {
