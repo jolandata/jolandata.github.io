@@ -33,7 +33,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 ## NEXT ACTIONS
 
 1. Add real Formspree form ID → replace `your-form-id` in index.html (mailto fallback active meanwhile)
-2. Add professional headshot to About section (needs photo)
+2. Add professional headshot to About section — ✅ done (imgs/headshot.jpg)
 3. Refine logo as SVG vector — ✅ done (imgs/logo.svg in nav)
 4. Add hero background visual — ✅ done (grid + radial glows + vignette)
 

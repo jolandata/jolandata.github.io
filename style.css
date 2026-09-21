@@ -595,6 +595,17 @@
     height: 80px;
   }
 
+  .about__photo-img {
+    width: 100%;
+    max-width: 280px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    display: block;
+  }
+
   .about__bio p {
     color: var(--text-secondary);
     margin-bottom: 1rem;
