@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Jolanda — XR, AI and Human Factors emblem">
+  <!-- faint spatial depth rings -->
+  <g fill="none" stroke="#ffffff" opacity="0.08" stroke-width="2">
+    <circle cx="320" cy="320" r="296"/>
+    <circle cx="320" cy="320" r="232"/>
+  </g>
+
+  <!-- XR orbit -->
+  <circle cx="320" cy="320" r="150" fill="none" stroke="#00d4ff" stroke-width="12"/>
+  <circle cx="320" cy="320" r="124" fill="none" stroke="#00d4ff" stroke-width="5" stroke-dasharray="20 26" opacity="0.65"/>
+
+  <!-- human-centred core (head + shoulders) -->
+  <circle cx="320" cy="320" r="52" fill="none" stroke="#ffb347" stroke-width="13"/>
+  <path d="M238 426 Q320 458 402 426" fill="none" stroke="#ffb347" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- AI node constellation -->
+  <g stroke="#ff4d94" stroke-width="7" opacity="0.9">
+    <line x1="346" y1="206" x2="408" y2="206"/>
+    <line x1="346" y1="206" x2="346" y2="270"/>
+    <line x1="408" y1="206" x2="376" y2="296"/>
+  </g>
+  <circle cx="346" cy="206" r="15" fill="#ff4d94"/>
+  <circle cx="408" cy="206" r="11" fill="#ff4d94"/>
+  <circle cx="346" cy="270" r="11" fill="#ff4d94"/>
+  <circle cx="404" cy="252" r="6" fill="#ff4d94"/>
+</svg>

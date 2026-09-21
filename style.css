@@ -435,6 +435,13 @@
     }
   }
 
+  .hero__image {
+    width: min(340px, 80vw);
+    height: auto;
+    margin-top: 1.5rem;
+    filter: drop-shadow(0 0 28px rgba(0, 212, 255, 0.22));
+  }
+
   .hero__sub {
     font-size: 1.15rem;
     color: var(--text-secondary);
