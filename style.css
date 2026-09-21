@@ -189,6 +189,21 @@
     flex: none;
   }
 
+  .nav__logo-emblem {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    filter: drop-shadow(0 0 9px rgba(0, 212, 255, 0.3));
+  }
+
+  .nav__logo-emblem .hr-halo { animation: hrHaloPulse 6s ease-in-out infinite; }
+
+  .nav__logo-emblem .hr-dash {
+    animation: hrSpin 25s linear infinite;
+    transform-origin: 320px 320px;
+    transform-box: fill-box;
+  }
+
   .nav__links {
     display: flex;
     gap: 2rem;
