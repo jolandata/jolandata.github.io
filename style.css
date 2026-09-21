@@ -630,6 +630,7 @@
   }
 
   .about__logo-tag {
+    display: inline-block;
     padding: 0.3rem 0.75rem;
     border-radius: 6px;
     font-size: 0.8rem;
@@ -637,6 +638,14 @@
     background: var(--bg-tertiary);
     color: var(--text-secondary);
     border: 1px solid var(--border);
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color var(--transition), color var(--transition);
+  }
+
+  .about__logo-tag:hover {
+    color: var(--accent-xr);
+    border-color: var(--accent-xr);
   }
 
   /* ── PROCESS ── */
