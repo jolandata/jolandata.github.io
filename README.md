@@ -1,4 +1,4 @@
-# Jolanda's Business — Brand Website
+# Dr. Jolanda G. Tromp — Brand Website
 
 Single-page consulting brand website for Dr. Jolanda G. Tromp.
 
@@ -102,7 +102,8 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Added professional headshot (`imgs/headshot.jpg`) to the About section.
 - Replaced Formspree with a self-owned contact form (mailto composition; no third party).
 - Contact section: removed the info column (Email / LinkedIn / Based in); the form is now a single centered column.
-- Replaced the contact form with **Google Calendar appointment booking** (button → `calendar.app.google/3kGcJMkmGBzo5NL99`; email note retained as fallback).
+- Replaced the contact form with **Google Calendar appointment booking** (button → `calendar.app.google/3kGcJMkmGBzo5NL99`).
+- Rebranded site to **Dr. Jolanda G. Tromp** (title, meta description, nav wordmark, footer); added the logo mark as favicon; removed the "Prefer email" line.
 - Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
