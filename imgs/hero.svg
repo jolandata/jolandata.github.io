@@ -1,26 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Jolanda — XR, AI and Human Factors emblem">
+  <defs>
+    <radialGradient id="hrHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#7a2bff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hrRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#39e6ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- luminous halo -->
+  <circle class="hr-halo" cx="320" cy="320" r="300" fill="url(#hrHalo)"/>
+
   <!-- faint spatial depth rings -->
-  <g fill="none" stroke="#ffffff" opacity="0.08" stroke-width="2">
+  <g class="hr-spatial" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.07">
     <circle cx="320" cy="320" r="296"/>
-    <circle cx="320" cy="320" r="232"/>
+    <circle cx="320" cy="320" r="236"/>
   </g>
 
-  <!-- XR orbit -->
-  <circle cx="320" cy="320" r="150" fill="none" stroke="#00d4ff" stroke-width="12"/>
-  <circle cx="320" cy="320" r="124" fill="none" stroke="#00d4ff" stroke-width="5" stroke-dasharray="20 26" opacity="0.65"/>
+  <!-- XR orbit (solid + rotating dashed) -->
+  <circle class="hr-orbit" cx="320" cy="320" r="150" fill="none" stroke="url(#hrRing)" stroke-width="13"/>
+  <circle class="hr-dash" cx="320" cy="320" r="122" fill="none" stroke="#00d4ff" stroke-width="5" stroke-dasharray="24 28" opacity="0.85"/>
 
-  <!-- human-centred core (head + shoulders) -->
-  <circle cx="320" cy="320" r="52" fill="none" stroke="#ffb347" stroke-width="13"/>
-  <path d="M238 426 Q320 458 402 426" fill="none" stroke="#ffb347" stroke-width="14" stroke-linecap="round"/>
+  <!-- human-centred glowing core -->
+  <circle class="hr-core" cx="320" cy="320" r="54" fill="#ffb84d"/>
+  <circle cx="300" cy="298" r="14" fill="#fff3d6" opacity="0.95"/>
+  <path class="hr-wave" d="M232 424 Q320 462 408 424" fill="none" stroke="#ffcf70" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
 
   <!-- AI node constellation -->
-  <g stroke="#ff4d94" stroke-width="7" opacity="0.9">
-    <line x1="346" y1="206" x2="408" y2="206"/>
-    <line x1="346" y1="206" x2="346" y2="270"/>
-    <line x1="408" y1="206" x2="376" y2="296"/>
+  <g class="hr-nodes">
+    <g stroke="#ff4d94" stroke-width="8" stroke-linecap="round">
+      <line x1="336" y1="196" x2="398" y2="196"/>
+      <line x1="336" y1="196" x2="336" y2="264"/>
+      <line x1="398" y1="196" x2="366" y2="292"/>
+    </g>
+    <circle cx="336" cy="196" r="16" fill="#ff5fa8"/>
+    <circle cx="398" cy="196" r="11" fill="#ff4d94"/>
+    <circle cx="336" cy="264" r="11" fill="#ff4d94"/>
+    <circle cx="396" cy="246" r="6" fill="#fb3f8b"/>
   </g>
-  <circle cx="346" cy="206" r="15" fill="#ff4d94"/>
-  <circle cx="408" cy="206" r="11" fill="#ff4d94"/>
-  <circle cx="346" cy="270" r="11" fill="#ff4d94"/>
-  <circle cx="404" cy="252" r="6" fill="#ff4d94"/>
 </svg>

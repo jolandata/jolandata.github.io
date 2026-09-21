@@ -105,6 +105,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Replaced the contact form with **Google Calendar appointment booking** (button → `calendar.app.google/3kGcJMkmGBzo5NL99`).
 - Rebranded site to **Dr. Jolanda G. Tromp** (title, meta description, nav wordmark, footer); added the logo mark as favicon; removed the "Prefer email" line.
 - Added a dedicated hero emblem (`imgs/hero.svg`) and a bold, simplified `favicon.svg` (legible at 16px), superseding the `logo.svg` favicon.
+- Upgraded the hero emblem: brighter/luminous version (gradients, glowing halo, white highlight) inlined as `hero__emblem` with CSS animation (slow orbit rotation, breathing glow, gentle float); favicon unchanged.
 - Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
