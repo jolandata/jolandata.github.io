@@ -106,6 +106,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Rebranded site to **Dr. Jolanda G. Tromp** (title, meta description, nav wordmark, footer); added the logo mark as favicon; removed the "Prefer email" line.
 - Rebrand mark: `favicon.svg` (thick cyan ring + amber core + magenta node) now serves as the **nav icon** at 46px with a breathing-glow animation; `logo.svg` is now legacy/unreferenced. A large hero emblem (`hero.svg`/`hero__emblem`) was added then **removed** at Dr. Tromp's request — the hero is headline-only again.
 - About: converted the affiliation row into **six links** — EuroXR, DTU, SUNY (institutional pages), Publications (Notion), ORCID, Google Scholar (relabels of Motorola / Univ. Nottingham / EU Commission); styled as pill links with cyan hover.
+- Branding: adopted Dr. Tromp's new **cube logo** (`imgs/logo.png`) as the nav icon (keeps the breathing glow); favicon rewritten as a simplified cube + human-core + orbit mark legible at 16px.
 - Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
