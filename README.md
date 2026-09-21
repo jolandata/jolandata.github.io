@@ -108,6 +108,8 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - About: converted the affiliation row into **six links** — EuroXR, DTU, SUNY (institutional pages), Publications (Notion), ORCID, Google Scholar (relabels of Motorola / Univ. Nottingham / EU Commission); styled as pill links with cyan hover.
 - Branding: adopted Dr. Tromp's new **cube logo** (`imgs/logo.png`) as the nav icon (keeps the breathing glow); favicon rewritten as a simplified cube + human-core + orbit mark legible at 16px.
 - Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
+- Publications URL → public `notion.site` link; About bio spells out "State University of New York (SUNY)" (button unchanged).
+- Contact heading → "Book a **Free** Consultation" (Free in pink); nav logo tile given rounded corners (12px).
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
 ### 2026-08-28
