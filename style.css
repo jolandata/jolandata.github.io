@@ -184,23 +184,16 @@
   }
 
   .nav__logo-img {
-    width: 30px;
-    height: 30px;
+    width: 46px;
+    height: 46px;
     flex: none;
+    animation: navBreathe 2.8s ease-in-out infinite !important;
   }
 
-  .nav__logo-emblem {
-    width: 42px;
-    height: 42px;
-    flex: none;
-    filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.35));
+  @keyframes navBreathe {
+    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 6px rgba(0, 212, 255, 0.35)); }
+    50% { transform: scale(1.12); filter: drop-shadow(0 0 18px rgba(0, 212, 255, 0.75)); }
   }
-
-  .nav__logo-emblem .hr-halo { animation: hrGlow 3s ease-in-out infinite !important; }
-
-  .nav__logo-emblem .hr-dash { animation: hrDash 5s linear infinite !important; }
-
-  .nav__logo-emblem .hr-core-hi { animation: hrTwinkle 2.4s ease-in-out infinite !important; }
 
   .nav__links {
     display: flex;
