@@ -104,10 +104,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Contact section: removed the info column (Email / LinkedIn / Based in); the form is now a single centered column.
 - Replaced the contact form with **Google Calendar appointment booking** (button → `calendar.app.google/3kGcJMkmGBzo5NL99`).
 - Rebranded site to **Dr. Jolanda G. Tromp** (title, meta description, nav wordmark, footer); added the logo mark as favicon; removed the "Prefer email" line.
-- Added a dedicated hero emblem (`imgs/hero.svg`) and a bold, simplified `favicon.svg` (legible at 16px), superseding the `logo.svg` favicon.
-- Upgraded the hero emblem: brighter/luminous version (gradients, glowing halo, white highlight) inlined as `hero__emblem` with CSS animation (slow orbit rotation, breathing glow, gentle float); favicon unchanged.
-- Replaced the top-left **nav logo** (`logo.svg`) with the same glowing animated emblem (`nav__logo-emblem`) — luminous halo, gradient rotating ring, bright amber core with white highlight. `logo.svg` is now legacy/unreferenced.
-- Nav emblem: replaced the fine-detailed inline SVG with the **bold favicon mark** at 46px (thick ring, large amber core, single magenta dot — readable at small sizes) and a clear **breathing glow** animation (scale + pulsing highlight), visible even under reduced-motion.
+- Rebrand mark: `favicon.svg` (thick cyan ring + amber core + magenta node) now serves as the **nav icon** at 46px with a breathing-glow animation; `logo.svg` is now legacy/unreferenced. A large hero emblem (`hero.svg`/`hero__emblem`) was added then **removed** at Dr. Tromp's request — the hero is headline-only again.
 - Corrections: "European Parliament" → "European Commission" in the bio, the affiliation tag, and `docs/DESIGN.md`.
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
 
