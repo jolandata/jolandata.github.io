@@ -715,43 +715,9 @@
 
   /* ── CONTACT ── */
   .contact__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .contact__info {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .contact__item {
-    padding: 1rem;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-  }
-
-  .contact__label {
     display: block;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--text-muted);
-    margin-bottom: 0.35rem;
-  }
-
-  .contact__value {
-    font-size: 1rem;
-    color: var(--text-primary);
-    transition: color var(--transition);
-  }
-
-  a.contact__value:hover {
-    color: var(--accent-xr);
+    max-width: 560px;
+    margin: 0 auto;
   }
 
   .contact__form {
