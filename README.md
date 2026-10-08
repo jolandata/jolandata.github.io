@@ -19,7 +19,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 
 ## CURRENT STATE
 
-**All 6 gates complete.** Site is live at **https://jolandata.github.io** with all 8 sections built and deployed. Pending minor enhancements (Formspree form ID, headshot photo, SVG logo refinement).
+**All 6 gates complete.** Site is live at **https://jolandata.github.io** with all 8 sections built and deployed, plus a self-hosted **Publications subpage**. Formspree replaced with a self-owned form; headshot, cube-logo, and favicon shipped.
 
 ## ACTIVE WORK
 
@@ -68,6 +68,7 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 | index.html | 🚀 Live | `https://jolandata.github.io` |
 | style.css | 🚀 Deployed | GitHub Pages |
 | script.js | 🚀 Deployed | GitHub Pages |
+| publications.html | 🚀 Live | `https://jolandata.github.io/publications.html` |
 
 ## KEY FILES
 
@@ -111,6 +112,10 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Publications URL → public `notion.site` link; About bio spells out "State University of New York (SUNY)" (button unchanged).
 - Contact heading → "Book a **Free** Consultation" (Free in pink); nav logo tile given rounded corners (12px).
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
+
+### 2026-10-05
+
+- Replaced the Notion "Publications" subpage with a self-hosted **`publications.html`** subpage (13 categories, 105 entries, DOIs/links, category jump-nav, research-profile links). About-section "Publications" link now points locally instead of to Notion. Live at https://jolandata.github.io/publications.html
 
 ### 2026-08-28
 
