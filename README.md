@@ -116,6 +116,8 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 ### 2026-10-05
 
 - Replaced the Notion "Publications" subpage with a self-hosted **`publications.html`** subpage (13 categories, 105 entries, DOIs/links, category jump-nav, research-profile links). About-section "Publications" link now points locally instead of to Notion. Live at https://jolandata.github.io/publications.html
+- Added **`genxr-watch.html`** — GenXR Watch newsletter + podcasts subpage. 4 released issues (editorial preview + Tactical Themes 01–03) each with a front-page thumbnail, "Read the newsletter" download (PDFs in `newsletters/`), and a placeholder "Download podcast" link. Subscribe button present but wired as placeholder until a signup service is chosen. Added **GenXR Watch** tab to the main nav and the Publications subpage nav. Live at https://jolandata.github.io/genxr-watch.html
+- Fixes: added **Publications** to the main nav; added a desktop-only rule so the hero "Scroll ↓" indicator clears the centered CTA buttons on short desktop screens (was overlapping under ~640px viewport height).
 
 ### 2026-08-28
 
