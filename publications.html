@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Publications by Dr. Jolanda G. Tromp — books, peer-reviewed journal articles, conference papers, reports, and contributions across XR, AI, human factors, and immersive technologies.">
+<meta name="theme-color" content="#0a0a0f">
+<title>Publications | Dr. Jolanda G. Tromp</title>
+<link rel="icon" type="image/svg+xml" href="imgs/favicon.svg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="style.css">
+
+<style>
+  /* ─── Publications subpage ─── */
+  .page-hero {
+    padding: clamp(6rem, 14vh, 9rem) 0 2rem;
+    position: relative;
+    text-align: center;
+  }
+  .page-hero__title {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+  .page-hero__lede {
+    max-width: 640px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+  }
+  .pub-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 2rem auto 0;
+    max-width: 720px;
+  }
+  .pub-nav a {
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: var(--fs-small);
+    color: var(--text-secondary);
+    transition: var(--transition);
+  }
+  .pub-nav a:hover {
+    border-color: var(--accent-xr);
+    color: var(--accent-xr);
+  }
+  .pub-section {
+    scroll-margin-top: 5rem;
+  }
+  .pub-section + .pub-section {
+    margin-top: var(--space-section);
+  }
+  .pub-section__head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .pub-section__num {
+    font-family: var(--ff-display);
+    font-weight: 700;
+    color: var(--accent-xr);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+  }
+  .pub-section__title {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h3);
+    font-weight: 600;
+  }
+  .pub-section__rule {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+  .pub-list {
+    list-style: none;
+    display: grid;
+    gap: 0.9rem;
+  }
+  .pub-list--ol {
+    list-style: none;
+    counter-reset: pub;
+  }
+  .pub-item {
+    padding: 1rem 1.1rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: var(--fs-small);
+    color: var(--text-secondary);
+    line-height: 1.55;
+    transition: var(--transition);
+  }
+  .pub-list--ol .pub-item::before {
+    counter-increment: pub;
+    content: counter(pub);
+    font-family: var(--ff-display);
+    font-weight: 700;
+    color: var(--accent-ai);
+    margin-right: 0.55rem;
+  }
+  .pub-item a {
+    color: var(--accent-xr);
+    word-break: break-word;
+  }
+  .pub-item a:hover {
+    text-decoration: underline;
+  }
+  .pub-note {
+    font-size: var(--fs-small);
+    color: var(--text-muted);
+    margin: 0.25rem 0 0 0;
+  }
+  .pub-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .pub-profiles a {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-primary);
+    transition: var(--transition);
+  }
+  .pub-profiles a:hover {
+    border-color: var(--accent-cyan, var(--accent-xr));
+    color: var(--accent-cyan, var(--accent-xr));
+  }
+  @media (max-width: 640px) {
+    .pub-item { font-size: 0.85rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ STICKY NAV ═══════════ -->
+<nav class="nav" id="nav" aria-label="Main navigation">
+  <div class="nav__inner">
+    <a href="index.html#hero" class="nav__logo" aria-label="Home">
+      <img class="nav__logo-img" src="imgs/logo.png" alt="" width="46" height="46">
+      <span>Dr. Jolanda G. Tromp</span>
+    </a>
+    <button class="nav__hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html#services" class="nav__link">Services</a></li>
+      <li><a href="index.html#about" class="nav__link">About</a></li>
+      <li><a href="index.html#work" class="nav__link">Work</a></li>
+      <li><a href="publications.html" class="nav__link">Publications</a></li>
+      <li><a href="index.html#contact" class="nav__link nav__link--cta">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════ PAGE HERO ═══════════ -->
+<header class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title">Publications</h1>
+    <p class="page-hero__lede">A comprehensive overview of books, peer-reviewed publications, and reports related to XR, human factors, and immersive technologies.</p>
+    <nav class="pub-nav" aria-label="Publication categories">
+      <a href="#books">Books</a>
+      <a href="#chapters">Book Chapters</a>
+      <a href="#journals">Journal Publications</a>
+      <a href="#conferences">Conference Papers</a>
+      <a href="#reports">Reports</a>
+      <a href="#industry">Industry &amp; Trade Journals</a>
+      <a href="#workshops">Workshops &amp; Tutorials</a>
+      <a href="#theses">Theses</a>
+      <a href="#interviews">Interviews</a>
+      <a href="#popular">Popular Press</a>
+      <a href="#selfp">Self-Published Texts</a>
+      <a href="#keynotes">Keynotes &amp; Contributions</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ═══════════ BOOKS ═══════════ -->
+  <section class="pub-section" id="books">
+    <div class="pub-section__head">
+      <span class="pub-section__num">01</span>
+      <h2 class="pub-section__title">Books</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Alcañiz, M., Sacco, M., &amp; Tromp, J. G. (Eds.). (2022). <em>Roadmapping XR Technologies</em>. Wiley–Scrivener.</li>
+      <li class="pub-item">Tromp, J. G., Lê, Đ. N., &amp; Lê, C. V. (Eds.). (2020). <em>Emerging Extended Reality Technologies for Industry 4.0: Early Experiences with Conception, Design, Implementation, Evaluation and Deployment</em>. Wiley–Scrivener.</li>
+      <li class="pub-item">Lê, Đ. N., Lê, C. V., Tromp, J. G., &amp; Nguyen, G. N. (Eds.). (2018). <em>Virtual Reality and Augmented Reality Healthcare and Medicine Applications: Design, Evaluation and Long Term Use Implications</em>. Wiley–Scrivener.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ BOOK CHAPTERS ═══════════ -->
+  <section class="pub-section" id="chapters">
+    <div class="pub-section__head">
+      <span class="pub-section__num">02</span>
+      <h2 class="pub-section__title">Book Chapters</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, Jolanda G. (2025). The Torch of Prometheus: Harnessing Sensetech for Global Progress. In Moutinho, L., Bravo, L., <em>Impacts of Sensetech on Society</em>, IGI Global, USA, Ch 4, pp. 49–82. <a href="https://doi.org/10.4018/979-8-3693-7147-3.ch004" target="_blank" rel="noopener">DOI: 10.4018/979-8-3693-7147-3.ch004</a> (05/2025).</li>
+      <li class="pub-item">Tromp, Jolanda G. (2022). Delphi Consensus Study — Future Directions for XR. In Alcañiz, M., Sacco, M., Tromp, J. G., <em>Roadmapping XR Technologies</em>, Wiley-Scrivener, USA (08/2022).</li>
+      <li class="pub-item">Tromp, Jolanda G. (2022). XR and the Backbone. In Alcañiz, M., Sacco, M., Tromp, J. G., <em>Roadmapping XR Technologies</em>, Wiley-Scrivener, USA (08/2022).</li>
+      <li class="pub-item">Riman, J., Winters, N., Zelenak, J., Yucel, I., Tromp, J. (2020). Mixed Reality use in Higher Education: Results from an International Survey. In Tromp, J. G., Lê, D. N., Lê, C. V. (Eds.), <em>Emerging Extended Reality Technologies for Industry 4.0</em>. Wiley-Scrivener (03/2020).</li>
+      <li class="pub-item">Cai, Z. T., Mendoza, O., Zelenak, R. K., Le, C. V., Schofield, D., Tromp, J. (2020). Human Factors for e-Health Training System: UX Testing for XR Anatomy Training App. In Tromp, J. G., Lê, D. N., Lê, C. V. (Eds.), <em>Emerging Extended Reality Technologies for Industry 4.0</em>. Wiley-Scrivener (03/2020).</li>
+      <li class="pub-item">Tromp, J., Bottoms, J. (2020). Introduction. In Tromp, J. G., Lê, D. N., Lê, C. V. (Eds.), <em>Emerging Extended Reality Technologies for Industry 4.0</em>. Wiley-Scrivener (03/2020).</li>
+      <li class="pub-item">Puri, V., Gautam, K., Tromp, J. G., Le, C. V., Sachdeva, N., Tri, T. H. M. (2019). CLOUDFALL 1.0: A Smart Low Cost IoT based Fall Detection Sensor Node. In <em>Internet of Things in Biomedical Engineering</em>, Elsevier Academic Press (07/2019).</li>
+      <li class="pub-item">Reitmeier, H., Tromp, J., Bottoms, J. (2019). Cybersecurity At Organizations: A Delphi Pilot Study of Expert Opinions About Policy and Protection. In Le, D., Kumar, R., Mishra, B. K., Khari, M., Chatterjee, J. M. (Eds.), <em>Cyber Security in Parallel and Distributed Computing</em>. <a href="https://doi.org/10.1002/9781119488330.ch11" target="_blank" rel="noopener">https://doi.org/10.1002/9781119488330.ch11</a></li>
+      <li class="pub-item">Tromp, J. G. (2018). Introduction to Emerging Technologies for Medicine and Healthcare. In Lê, Đ. N., Le, C. V., Tromp, J. G., Nguyen, G. N. (Eds.), <em>Virtual Reality and Augmented Reality Healthcare and Medicine Applications</em>. Wiley-Scrivener (06/2018).</li>
+      <li class="pub-item">Garcia, J., Tromp, J. G., Seaton, H. (2018). Effectiveness of Virtual Reality Mock Interview Training. In Lê, Đ. N., Le, C. V., Tromp, J. G., Nguyen, G. N. (Eds.), <em>Virtual Reality and Augmented Reality Healthcare and Medicine Applications</em>. Wiley-Scrivener (06/2018).</li>
+      <li class="pub-item"><em>Healthcare and Medicine Applications: Design, Evaluation and Long-Term Use Implications</em>. Lê, Đ. N., Le, C. V., Tromp, J. G., Nguyen, G. N. (Eds.). Wiley-Scrivener (06/2018).</li>
+      <li class="pub-item">Puri, V., Tromp, J. G., Le, C. V., Nguyen, G. N., Lê, Đ. N., LeRoy, N. C. L. (2018). A Depth Analysis of Telemedicine Technologies. In <em>Virtual Reality and Augmented Reality Healthcare and Medicine Applications</em>. Wiley-Scrivener (06/2018).</li>
+      <li class="pub-item">Le, C. V., Tromp, J. G., Puri, V. (2018). Using 3D Simulation In Medical Education: A Comparative Test of Teaching Anatomy Using Virtual Reality. In <em>Virtual Reality and Augmented Reality Healthcare and Medicine Applications</em>. Wiley-Scrivener (06/2018).</li>
+      <li class="pub-item">Tromp, J., Le, C., Le, B., Le, D.-N. (2018). Massively Multi-user Online Social Virtual Reality Systems: Ethical Issues and Risks for Long-Term Use. <em>Social Networks Science: Design, Implementation, Security, and Challenges</em>, pp. 131–149. ISBN 978-3-319-90058-2. <a href="https://doi.org/10.1007/978-3-319-90059-9_7" target="_blank" rel="noopener">DOI: 10.1007/978-3-319-90059-9_7</a></li>
+      <li class="pub-item">Tromp, J., Nguyen, T. (2018). User-Centered Design and Evaluation Methodology for Virtual Environments. <em>Encyclopedia of Computer Graphics and Games</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-08234-9_167-1" target="_blank" rel="noopener">DOI: 10.1007/978-3-319-08234-9_167-1</a></li>
+      <li class="pub-item">Stedmon, A., Cruz, M., Tromp, J., Wilson, J. (2003). Two Methods and a Case Study: Human Factors Evaluations for Virtual Environments. In <em>Human-Centered Computing</em>, Vol 1, CRC Press, Taylor &amp; Francis. ISBN 978036781336.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ JOURNAL PUBLICATIONS ═══════════ -->
+  <section class="pub-section" id="journals">
+    <div class="pub-section__head">
+      <span class="pub-section__num">03</span>
+      <h2 class="pub-section__title">Journal Publications</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J., El Makrini, I., Trógolo, M., Muñoz, M. A., Sánchez-Barrera, M. B., Pacheco, J. P., &amp; Castro, C. (2026). Designing Extended Intelligence: A Taxonomy of Psychobiological Effects of XR–AI Systems for Human Capability Augmentation. <em>Virtual Worlds, 5</em>(2), 18. <a href="https://doi.org/10.3390/virtualworlds5020018" target="_blank" rel="noopener">https://doi.org/10.3390/virtualworlds5020018</a> (4/2026).</li>
+      <li class="pub-item">Castro, C., Dinu, A. I., Doncel, P., Sánchez-Barrera, M. B., Muñoz, M. A., Gómez-Campos, F. M., García-Fernández, P., Tromp, J. &amp; Trógolo, M. A. (2026). Immersive tendencies and presence in virtual reality: Spanish adaptation of the ITQ and IPQ, and their relationship with suggestibility and cybersickness. <em>Virtual Reality 30</em>, 49. <a href="https://doi.org/10.1007/s10055-025-01301-2" target="_blank" rel="noopener">https://doi.org/10.1007/s10055-025-01301-2</a> (1/2026).</li>
+      <li class="pub-item">Tromp, J., Schofield, D., Raeisian Parvari, P., Poyade, M., Eaglesham, C., Torres, J. C., Johnson, T., Jürivete, T., Lauer, N., Reyes-Lecuona, A., González-Toledo, D., Cuevas-Rodríguez, M., &amp; Molina-Tanco, L. (2025). Designing and Evaluating XR Cultural Heritage Applications Through Human–Computer Interaction Methods: Insights from Ten International Case Studies. <em>Applied Sciences, 15</em>(14), 7973. <a href="https://doi.org/10.3390/app15147973" target="_blank" rel="noopener">https://doi.org/10.3390/app15147973</a> (7/2025).</li>
+      <li class="pub-item">Tromp, J., Raeisian Parvari, P., Le, C. V. (2024). Building a global taxonomy for medical XR applications: identifying best practices for design innovation and collaboration. <em>Journal of Empathic Computing, 1</em>(01), in press, GS Publishing, UK (12/2024).</li>
+      <li class="pub-item">Gautam, K., Puri, V., Tromp, J., Le, C., &amp; Nguyen, N. (2018). Internet of Things and Healthcare Technologies: A Valuable Synergy from Design to Implementation. <em>International Journal of Machine Learning and Networked Collaborative Engineering, 2</em>(03), 128–142.</li>
+      <li class="pub-item">Tromp, J. G., Wolff, A., Torres, J. C., My, H. T. Usability evaluation of the interactive 3D virtual cultural heritage museum display: Fountain of the Lions software application. <a href="https://doi.org/10.14419/ijet.v7i2.28.12887" target="_blank" rel="noopener">DOI: 10.14419/ijet.v7i2.28.12887</a></li>
+      <li class="pub-item">Tromp, J. G., Chowdhury, J., Torres, J. C., My, H. T. Usability testing of "CHIsel": Cultural heritage information system extended layers of interactive 3D computer generated images and relational database. <a href="https://doi.org/10.14419/ijet.v7i2.28.12888" target="_blank" rel="noopener">DOI: 10.14419/ijet.v7i2.28.12888</a></li>
+      <li class="pub-item">Tromp, J. G., Sharples, S., Patel, H. (2006). Special issue: VR design and usability workshop guest editors' introduction. <em>Presence: Teleoperators &amp; Virtual Environments</em> 15(6):iii–iv. <a href="https://doi.org/10.1162/pres.15.6.iii" target="_blank" rel="noopener">DOI: 10.1162/pres.15.6.iii</a></li>
+      <li class="pub-item">Schroeder, R., Heldal, I., Tromp, J. G. (2006). The Usability of Collaborative Virtual Environments and Methods for the Analysis of Interaction. <em>Presence: Teleoperators &amp; Virtual Environments</em> 15(6):655–667. <a href="https://doi.org/10.1162/pres.15.6.655" target="_blank" rel="noopener">DOI: 10.1162/pres.15.6.655</a></li>
+      <li class="pub-item">Karaseitanidis, I., Amditis, A., Patel, H., Sharples, S., Bekiaris, E., Bullinger, A., Tromp, J. G. (2006). Evaluation of virtual reality products and applications from individual, organizational and societal perspectives — The "VIEW" case study. <em>International Journal of Human-Computer Studies</em> 64(3):251–266. <a href="https://doi.org/10.1016/j.ijhcs.2005.08.013" target="_blank" rel="noopener">DOI: 10.1016/j.ijhcs.2005.08.013</a></li>
+      <li class="pub-item">Tromp, J. G., Sharples, S., Patel, H. (2006). Guest Editor's Introduction. <em>Presence: Teleoperators &amp; Virtual Environments</em>. <a href="https://doi.org/10.1162/pres.15.6.655" target="_blank" rel="noopener">DOI: 10.1162/pres.15.6.655</a></li>
+      <li class="pub-item">Tromp, J. G., Steed, A., Wilson, J. R. (2003). Systematic Usability Evaluation and Design Issues for Collaborative Virtual Environments. <em>Presence: Teleoperators &amp; Virtual Environments</em> 12(3):241–267. <a href="https://doi.org/10.1162/105474603765879512" target="_blank" rel="noopener">DOI: 10.1162/105474603765879512</a></li>
+      <li class="pub-item">Stedmon, A., D'Cruz, M., Tromp, J., Wilson, J. (2003). Two Methods and a Case Study: Human Factors Evaluations for Virtual Environments. In Proceedings of HCI International '03, Crete, June 22–27, 2003. Lawrence Erlbaum Associates (06/2003).</li>
+      <li class="pub-item">Steed, A., Slater, M., Sadagic, A., Bullock, A., Tromp, J. (2002). Leadership and Collaboration in Shared Virtual Environments (03/2002).</li>
+      <li class="pub-item">Bullock, A., Tromp, J., Benford, S. D. Evaluating the Network and Usability Characteristics of Virtual Reality Conferencing. <a href="https://doi.org/10.1007/978-1-4615-5291-8_9" target="_blank" rel="noopener">DOI: 10.1007/978-1-4615-5291-8_9</a></li>
+      <li class="pub-item">Kaur Deol, K., Steed, A., Hand, C., Istance, H. O., Tromp, J. (2000). Usability Evaluation for Virtual Environments: Methods, Results and Future Directions (Part 2). <em>Interfaces</em> (10/2000).</li>
+      <li class="pub-item">Kaur Deol, K., Steed, A., Hand, C., Istance, H., Tromp, J. (2000). Usability Evaluation for Virtual Environments: Methods, Results and Future Directions (Part 1). <em>Interfaces</em> (07/2000).</li>
+      <li class="pub-item">Normand, V., Babski, C., Benford, S., Bullock, A., Carion, S., Frécon, E., Kuijpers, N., Magnenat-Thalmann, N., Slater, M., Smith, G., Steed, A., Thalmann, D., Tromp, J., Usoh, M., Van Liempd, G., Harvey, J. The COVEN project: exploring applicative, technical and usage dimensions of collaborative virtual environments.</li>
+      <li class="pub-item">Tromp, J. G., Bullock, A., Steed, A., Sadagic, A., Slater, M., Frécon, E. (1998). Small group behavior experiments in the COVEN Project. <em>IEEE Computer Graphics and Applications</em> 18(6):53–63. <a href="https://doi.org/10.1109/38.734980" target="_blank" rel="noopener">DOI: 10.1109/38.734980</a></li>
+      <li class="pub-item">Steed, A., Tromp, J. (1998). Experiences with the evaluation of CVE applications. In Proceedings of 2nd Collaborative Virtual Environments Conference (CVE'98), University of Manchester, UK.</li>
+      <li class="pub-item">Tromp, J. G., Dieberger, A. (1995). MUDs as Text-Based Spatial User Interfaces and Research Tools. 4(2–4):179–202. <a href="https://doi.org/10.1515/JISYS.1995.5.2-4.179" target="_blank" rel="noopener">DOI: 10.1515/JISYS.1995.5.2-4.179</a></li>
+      <li class="pub-item">Tromp, J. (1995). Presence, Telepresence and Immersion: The Cognitive Factors of Embodiment and Interaction in Virtual Environments. Psychology Dissertation, University of Amsterdam, the Netherlands (10/1995).</li>
+      <li class="pub-item">Tromp, J. G. (1996). Methodology of Distributed CVE Evaluations. CVE '96 (Collaborative Virtual Environments) Workshop Proceedings, University of Nottingham, 19–20 September, 09/1996.</li>
+      <li class="pub-item">Dieberger, A., Tromp, J. (1995). 3D Hypertext — The Information City Project: a Virtual Reality User Interface for Navigation in Information Spaces. In (ed. T. Erickson), <em>The User Experience Review</em>, Apple Computer, Vol. 11, Jan/Feb, pp. 2–9 (01/1995).</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ CONFERENCE PAPERS ═══════════ -->
+  <section class="pub-section" id="conferences">
+    <div class="pub-section__head">
+      <span class="pub-section__num">04</span>
+      <h2 class="pub-section__title">Conference Papers &amp; Proceedings</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Castro, C., Dinu, A. I., Doncel, P., Sánchez, M. B., Muñoz, M. A., Gómez, F. M., García-Fernández, P. &amp; Tromp, J. (2024). Psychometric properties of ITQ and IPQ: Adaptations to the Spanish context to measure efficacy of Virtual Environments to generate emotional states. ITC (International Test Commission), 2–5 July, Granada, Spain. <a href="https://www.itc2024granada.com/" target="_blank" rel="noopener">https://www.itc2024granada.com/</a></li>
+      <li class="pub-item">Pech Pacheco, J. L., Tromp, J. G., Le, C. V. (2024). Balancing Ethical AI with Innovation: How Kopernica Revolutionizes Privacy, Security, and Fairness in Advanced AI Systems. 2024 RIVF International Conference, Danang, Vietnam, pp. 414–418. <a href="https://doi.org/10.1109/RIVF64335.2024.11009121" target="_blank" rel="noopener">DOI: 10.1109/RIVF64335.2024.11009121</a> · <a href="https://ieeexplore.ieee.org/document/11009121" target="_blank" rel="noopener">IEEE</a></li>
+      <li class="pub-item">Castro, C., Dinu, A., Sanchez, M. B., Munoz, M. A., Gomez, F., García-Fernandez, P., Tromp, J. &amp; Trógolo, M. (2023). Adaptation of ITQ and IPQ to Spanish language; Assessment of proneness to immersion skills and presence of VR Environments. Presented at The Global XR Conference, Nov 2–3, 2023, nextReality.Hamburg e.V.</li>
+      <li class="pub-item">Raeisian Parvari, P., Schofield, D., Tromp, J., Lê, C. V. (2023). Confident Talk, AI and VR-Powered Speech Support for Enhancing Communication in Individuals with ADHD. In Proceedings of Future of Information and Communication Conference (FICC 2023), pp. 229–240.</li>
+      <li class="pub-item">Nguyen, T. L., Trinh, H. H., Le, C. V., Lauer, N., Tromp, J. G. (2020). Digital Cultural Heritage: Virtual &amp; Augmented Reality 3D Animation of UNESCO World Heritage Site Mỹ Sơn. EuroXR 2020 Application, Exhibition and Demo Track, Proceedings of EuroVR Conference, VTT Technology 381, Finland. <a href="https://publications.vtt.fi/pdf/technology/2020/T381.pdf" target="_blank" rel="noopener">PDF</a></li>
+      <li class="pub-item">Tromp, J., Molina, A., Alba, G., Lupiáñez, M., Cano, P., Muñoz, M. A. (2020). Rehabilitation of Carpal Tunnel Syndrome with the Rubber Hand Illusion in Virtual Reality. EuroXR 2020, Proceedings of EuroVR Conference, VTT Technology 381, pp. 113–116. <a href="https://publications.vtt.fi/pdf/technology/2020/T381.pdf" target="_blank" rel="noopener">PDF</a></li>
+      <li class="pub-item">Tromp, J. G., Winters, N., Riman, J., Zelenak, J., Yucel, I. (2019). Mixed Reality use in Higher Education: Results from an International Survey. iLRN Conference, London, pp. 166–167. <a href="https://doi.org/10.3217/978-3-85125-657-4" target="_blank" rel="noopener">DOI: 10.3217/978-3-85125-657-4</a></li>
+      <li class="pub-item">Gautam, K., Puri, V., Tromp, J. G., Nguyen, G. N., Le, C. V. Internet of Things (IoT) and Deep Neural Network Based Intelligent and Conceptual Model for Smart City. In Proceedings of FICTA Conference, Duy Tan University, 2018.</li>
+      <li class="pub-item">Wolff, A., Tromp, J. G., Torres, J. C. (2018). Usability evaluation of the interactive 3D virtual cultural heritage museum display: Fountain of the Lions software application. ICCMIT 2018: Special Session XR for Cultural Heritage, Hospitality and Tourism, Madrid, Spain (4/2018).</li>
+      <li class="pub-item">Chowdhury, J., Tromp, J. G., Torres, J. C. (2018). Usability testing of "CHIsel": Cultural heritage information system extended layers of interactive 3D computer generated images and relational database. ICCMIT 2018: Special Session XR for Cultural Heritage, Madrid, Spain (4/2018).</li>
+      <li class="pub-item">Garcia, J., Tromp, J. G., Seaton, H. (2018). Effectiveness of Virtual Reality Mock Interview Training. ICCMIT 2018: Special Session MR for Medicine &amp; Healthcare, Madrid, Spain (4/2018).</li>
+      <li class="pub-item">Le, C. V., Puri, V., Tromp, J. G. (2018). A Comparative Test of Teaching Anatomy Using Virtual Reality. ICCMIT 2018: Special Session MR for Medicine &amp; Healthcare, Madrid, Spain (4/2018).</li>
+      <li class="pub-item">Tromp, J., Le, C. V., Nguyen, D. M. (2017). Virtual Reality for Medical Anatomy Education and Training: a comparative test of teaching with corpses, plastic models and VR. Demo and Paper, EuroVR Association Conference 2017, Laval, France (11/2017).</li>
+      <li class="pub-item">Trinh Hiep, H., Tromp, J., Le, C. V. (2017). Virtual Reality for Medical Anatomy Education and Training. Poster and Paper, EuroVR Association Conference 2017, Laval, France (11/2017).</li>
+      <li class="pub-item">Tromp, J. G. (2015). Virtual Leadership game, based on the GLOBE study of Intercultural leadership skills. Global SIETAR conference, May 21–23, Valencia, Spain (05/2015).</li>
+      <li class="pub-item">Tromp, J. G., Dol, R. W., Jackmuth, S., Sohne, J. (2013). Urban-Goods: The Game, The Marketplace and the Cooperative. ESoCE-net: People Driven Social Innovation Forum, Rome, Italy.</li>
+      <li class="pub-item">Griffiths, B., Tromp, J. G. (2012). CoachMaster: Intercultural Coaching Online. 3rd DIALOGIN Conference: Global Leadership Competence (06/2012).</li>
+      <li class="pub-item">Tromp, J. G. (2008). Global Teamwork. Global SIETAR Conference, Granada, Spain (08/2008).</li>
+      <li class="pub-item">Tromp, J., Schofield, D., Eastgate, R. (2004). Practical Experiences of Building Virtual Reality Systems. Proceedings of Designing and Evaluating Virtual Reality Systems Symposium, Nottingham, UK (07/2004).</li>
+      <li class="pub-item">Kompatsiaris, I., Avrithis, Y. S., Hobson, P., May, T., Tromp, J. G. (2004). Achieving Integration of Knowledge and Content Technologies: The aceMedia Project. EWIMT 2004, London, UK (01/2004).</li>
+      <li class="pub-item">Steed, A., Slater, M., Sadagic, A., Bullock, A., Tromp, J. (1999). Leadership and Collaboration in Shared Virtual Environments. <em>Virtual Reality, 1999. Proceedings, IEEE</em> (04/1999). <a href="https://doi.org/10.1109/VR.1999.756941" target="_blank" rel="noopener">DOI: 10.1109/VR.1999.756941</a></li>
+      <li class="pub-item">Tromp, J. G. (1998). Designing Flow of Interaction for Virtual Environments. Proceedings of the 2nd Collaborative Virtual Environments Conference, Manchester (01/1998).</li>
+      <li class="pub-item">Tromp, J. G., Snowdon, D. (1997). Virtual Body Language: providing appropriate user interfaces in Collaborative Virtual Environments. VRST '97, Lausanne, Switzerland (01/1997). <a href="https://doi.org/10.1145/261135.261143" target="_blank" rel="noopener">DOI: 10.1145/261135.261143</a></li>
+      <li class="pub-item">Normand, V., &amp; Tromp, J. G. (1996). Collaborative Virtual Environments: the COVEN Project. In Proceedings of FIVE'96 Conference, Spain.</li>
+      <li class="pub-item">Tromp, J. (1995). Presence, Telepresence and Immersion: The Cognitive Factors of Embodiment and Interaction in Virtual Environments. Proceedings of the FIVE'95 Conference, Queen Mary and Westfield College, pp. 39–51.</li>
+      <li class="pub-item">Tromp, J. G. (1995). Methodology of CVE Evaluation. Proceedings of Fourth UKVRSIG conference, Brunel University.</li>
+      <li class="pub-item">Tromp, J. G. (1993). Results of Two Surveys about Spatial Perception and Navigation of a Text-Based Spatial Interface. Proceedings ECHT '94, European Conference on Hypertext, Edinburgh, 19–23 September (9/1993).</li>
+      <li class="pub-item">Tromp, J., Dieberger, A. (1993). The Information City Project — a Virtual Reality Interface for Navigation in Information Spaces. Symposium on Virtual Reality, Vienna, Austria (12/1993).</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ REPORTS ═══════════ -->
+  <section class="pub-section" id="reports">
+    <div class="pub-section__head">
+      <span class="pub-section__num">05</span>
+      <h2 class="pub-section__title">Reports &amp; Selected Research Project Contributions</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Delphi Consensus Report on the State of XR 2022–2030 (for the European Commission), underlying <em>Roadmapping XR Technologies</em> (2022).</li>
+      <li class="pub-item">Mixed Reality in Higher Education: A Survey — FACT2 MR Task Group Report, SUNY (2018).</li>
+      <li class="pub-item">Tromp, J. G. (2002). Deliverable 2.8 Code of Good Practice for Virtual Reality Development Projects, View of the Future, VIRART, University of Nottingham.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ INDUSTRY & TRADE JOURNALS ═══════════ -->
+  <section class="pub-section" id="industry">
+    <div class="pub-section__head">
+      <span class="pub-section__num">06</span>
+      <h2 class="pub-section__title">Industry &amp; Trade Journals</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. (2025). Reweaving fashion with XR, AI and blockchain. <em>CIOReview Europe</em>. <a href="https://blockchain.ciorevieweurope.com/cxoinsight/reweaving-fashion-with-xr-ai-and-blockchain-nwid-2016.html" target="_blank" rel="noopener">Read</a> (8/2025).</li>
+      <li class="pub-item">Tromp, J. G. (2019). Critical Human Skills Requirements for the Digital Revolution. <em>APAC CIO Outlook: Simulation Edition</em>, July 22, 2019, Vol 5, ValleyMedia Inc., USA, pp. 8–9, ISSN 2644-2876. <a href="https://apacciooutlook.com" target="_blank" rel="noopener">apacciooutlook.com</a></li>
+      <li class="pub-item">Dieberger, A., &amp; Tromp, J. (1995). 3D Hypertext — The Information City Project: a Virtual Reality User Interface for Navigation in Information Spaces. <em>The User Experience Review</em>, Apple Computer, Vol. 11 (Jan/Feb), 2–9.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ WORKSHOPS & TUTORIALS ═══════════ -->
+  <section class="pub-section" id="workshops">
+    <div class="pub-section__head">
+      <span class="pub-section__num">07</span>
+      <h2 class="pub-section__title">Workshops &amp; Tutorials</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. G. (2017). Tutorial: XR Design and Evaluation for High Immersion, for Hackathon Reality Virtual, Massachusetts Institute of Technology (MIT), USA.</li>
+      <li class="pub-item">Tromp, J., D'Cruz, M., &amp; Sharples, S. (Eds.). (2004, January 22–23). Designing and evaluating virtual reality systems: Proceedings of the International Workshop on Evaluation of Virtual Environments (VIEW of the Future Project Dissemination 2). VIRART, University of Nottingham, Mixed Reality Laboratory, Jubilee Campus, Nottingham, UK.</li>
+      <li class="pub-item">Tromp, J., Hand, C., Istance, H., Kaur, K., &amp; Steed, A. (Eds.). (1998). Proceedings of the First International Workshop on Usability Evaluation for Virtual Environments (UEVE '98). De Montfort University, Leicester, UK. Sponsored by the British HCI Group.</li>
+      <li class="pub-item">Snowdon, D., Churchill, E., &amp; Tromp, J. (Eds.). (1996, September 19–20). Proceedings of the First International Collaborative Virtual Environments Workshop (CVE '96). University of Nottingham, Mixed Reality Laboratory, Nottingham, UK.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ THESES ═══════════ -->
+  <section class="pub-section" id="theses">
+    <div class="pub-section__head">
+      <span class="pub-section__num">08</span>
+      <h2 class="pub-section__title">Theses</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. G. (2001). Systematic Usability Design and Evaluation for Collaborative Virtual Environments (PhD Thesis). University of Nottingham, UK.</li>
+      <li class="pub-item">Tromp, J. G. (1995). Cognitive Immersion in Collaborative Virtual Environments (MSc Psychology, with honours). University of Amsterdam, NL.</li>
+      <li class="pub-item">Tromp, J. G. (1994). Presence, Telepresence and Immersion: The Cognitive Factors of Embodiment and Interaction in Virtual Environments (BSc Psychology dissertation). University of Amsterdam, Amsterdam, The Netherlands.</li>
+      <li class="pub-item">Tromp, J. G. (1989). Propedeuse Dissertation in Psychology: Creative Problem Solving Heuristics. University of Amsterdam, The Netherlands.</li>
+      <li class="pub-item">Tromp, J. G. (1987–1988). Design Studio Reports &amp; Projects (Years 2–3). Gerrit Rietveld Academy, Amsterdam, The Netherlands.</li>
+      <li class="pub-item">Tromp, J. G. (1986). Propedeuse Dissertation in Design: Visionary Artists and Creative Problem Solving. Gerrit Rietveld Academy, Amsterdam, The Netherlands.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ INTERVIEWS ═══════════ -->
+  <section class="pub-section" id="interviews">
+    <div class="pub-section__head">
+      <span class="pub-section__num">09</span>
+      <h2 class="pub-section__title">Interviews</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Walraevens, S. (2014). Not every Lens is the Same: Cultural literacy with Cultural Detective — in Flemish and French. Interview with Dr. Jolanda Tromp. <em>n'Go Magazine</em>, Echos Communication, Waterloo, Belgium, Nr 16, 23 February.</li>
+      <li class="pub-item">Keijzer, R. (2010). The Programmer gets the Blame: Living Labs help make Systems User-friendly — in Dutch. Interview with Dr. Jolanda Tromp. <em>The Automation Guide (Automatisering Gids)</em>, 5 February.</li>
+      <li class="pub-item">Bor van den, C. (2008). Positive Psychology — in Dutch. Interview with Dr. Jolanda Tromp. Dutch World Radio Services (Radio Nederland Wereldomroep), 6 October.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ POPULAR PRESS ═══════════ -->
+  <section class="pub-section" id="popular">
+    <div class="pub-section__head">
+      <span class="pub-section__num">10</span>
+      <h2 class="pub-section__title">Popular Press</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. G. (2010b). Managing Expat Stress — in Dutch. Dutch World Radio Services (Radio Nederland Wereldomroep), 13 May.</li>
+      <li class="pub-item">Tromp, J. G. (2010a). Discover the World as a Student Abroad — in Dutch. Dutch World Radio Services (Radio Nederland Wereldomroep), 3/2010.</li>
+      <li class="pub-item">Bor van den, C., Tromp, J. G. (2009). Children Crucial during Immigration — in Dutch. Dutch World Radio Services (Radio Nederland Wereldomroep), 4 September.</li>
+      <li class="pub-item">Tromp, J. G. (2008). Determine your own Happiness in your Job Abroad — in Dutch. Dutch World Radio Services (Radio Nederland Wereldomroep), 23 December.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ SELF-PUBLISHED TEXTS ═══════════ -->
+  <section class="pub-section" id="selfp">
+    <div class="pub-section__head">
+      <span class="pub-section__num">11</span>
+      <h2 class="pub-section__title">Self-Published Texts (Teaching / Practice)</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. G. (2025). XR Development Primer (English, Spanish, Vietnamese).</li>
+      <li class="pub-item">Tromp, J. G. (2025). Decentralized Futures: The New Digital Frontier.</li>
+      <li class="pub-item">Tromp, J. G. (2020). Introduction to the Iterative Design Process for Extended Reality Applications. Self-published for SUNY and Duy Tan University students.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ KEYNOTES & COMMUNITY CONTRIBUTIONS ═══════════ -->
+  <section class="pub-section" id="keynotes">
+    <div class="pub-section__head">
+      <span class="pub-section__num">12</span>
+      <h2 class="pub-section__title">Keynote Presentations &amp; Community Contributions</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <ul class="pub-list pub-list--ol">
+      <li class="pub-item">Tromp, J. G. (2026). XR Cultural Heritage and Tourism Innovation: Results from 10 Use Case Studies. Augmented World Expo Asia, Feb 2–4, 2026, Singapore.</li>
+      <li class="pub-item">Tromp, J. G. (2026). Designing Cultural XR for Education: Authenticity, Inclusion, and Scale. Panel discussion with Ajit Padmanabh; moderator Anna Vichnevetskaia. Augmented World Expo Asia, Feb 2–4, 2026, Singapore.</li>
+      <li class="pub-item">Tromp, J. (2025). Mixing realities: AI-powered AR/XR experiences for the next decade [Panel]. Digital Enterprise Show 2025, Malaga, Spain. Co-panelists: Frédéric Sanz, Álvaro Antoñanzas; Moderator: Luis Moreno Ortí.</li>
+      <li class="pub-item">Tromp, J. (2024, June 11–13). VRARA immersive technologies track ("Immersive Planet"): Extended reality, AI, spatial computing, health, and training [Conference contribution]. Digital Enterprise Show 2024, Malaga, Spain. Co-panelists: David Moreno, Carolina Salazar.</li>
+      <li class="pub-item">Tromp, J. (2024). Presenting the XR roadmapping book [Conference presentation]. Metaverse Spectrum Business Conference &amp; Expo, [Online].</li>
+      <li class="pub-item">Tromp, J. (2023). Expanding horizons: Spanish translation &amp; validation of presence IPQ and immersion ITQ surveys [Conference presentation]. Lost in a Lightfield, Global XR Conference 2023.</li>
+      <li class="pub-item">Tromp, J. G. (2018, December 7). Teaching with augmented and virtual reality in the 21st century: Design, innovation, multidisciplinary teamwork (Keynote address). International Conference on Smart Schools in the Context of the 4th Industrial Revolution, Ly Tu Trong College, Ho Chi Minh City, Vietnam.</li>
+      <li class="pub-item">Tromp, J. (2018, March 11–14). Teaching design thinking to usability engineering students (Keynote address). CDIO Regional Meeting Asia-Pacific, Duy Tan University, Da Nang, Vietnam.</li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ RESEARCH PROFILES ═══════════ -->
+  <section class="pub-section" id="profiles">
+    <div class="pub-section__head">
+      <span class="pub-section__num">13</span>
+      <h2 class="pub-section__title">Research Profiles</h2>
+      <span class="pub-section__rule"></span>
+    </div>
+    <div class="pub-profiles">
+      <a href="https://www.researchgate.net/profile/Jolanda-Tromp" target="_blank" rel="noopener">ResearchGate</a>
+      <a href="https://orcid.org/0000-0003-3247-7594" target="_blank" rel="noopener">ORCID</a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=7005551816" target="_blank" rel="noopener">Scopus</a>
+      <a href="https://scholar.google.com/citations?user=6SaoQ5EAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; 2026 Dr. Jolanda G. Tromp. All rights reserved.</p>
+      <a href="#" class="footer__top" aria-label="Back to top">&uarr; Top</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js" defer></script>
+</body>
+</html>
