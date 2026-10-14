@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course identifier="gc5d19f8b30411a91f6e68881382b62c5" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Chief Metaverse Officer in 4 Weeks</title>
+  <course_code>CMO in 4W</course_code>
+  <start_at/>
+  <conclude_at/>
+  <image_identifier_ref>g7aaa1791930721420b43b822d9dff9a3</image_identifier_ref>
+  <is_public>false</is_public>
+  <allow_student_wiki_edits>false</allow_student_wiki_edits>
+  <allow_student_forum_attachments>true</allow_student_forum_attachments>
+  <lock_all_announcements>false</lock_all_announcements>
+  <default_wiki_editing_roles>teachers</default_wiki_editing_roles>
+  <allow_student_organized_groups>true</allow_student_organized_groups>
+  <default_view>modules</default_view>
+  <allow_final_grade_override>false</allow_final_grade_override>
+  <open_enrollment>false</open_enrollment>
+  <filter_speed_grader_by_student_group>false</filter_speed_grader_by_student_group>
+  <self_enrollment>true</self_enrollment>
+  <license>private</license>
+  <hide_final_grade>false</hide_final_grade>
+  <hide_distribution_graphs>false</hide_distribution_graphs>
+  <allow_student_discussion_topics>true</allow_student_discussion_topics>
+  <allow_student_discussion_editing>true</allow_student_discussion_editing>
+  <show_announcements_on_home_page>false</show_announcements_on_home_page>
+  <home_page_announcement_limit>3</home_page_announcement_limit>
+  <usage_rights_required>false</usage_rights_required>
+  <restrict_enrollments_to_course_dates>false</restrict_enrollments_to_course_dates>
+  <homeroom_course>false</homeroom_course>
+  <horizon_course>false</horizon_course>
+  <career_learning_library_only>false</career_learning_library_only>
+  <conditional_release>true</conditional_release>
+  <grading_standard_enabled>false</grading_standard_enabled>
+  <storage_quota>500000000</storage_quota>
+  <restrict_student_future_view>false</restrict_student_future_view>
+  <restrict_student_past_view>false</restrict_student_past_view>
+  <overridden_course_visibility/>
+  <root_account_uuid>ff2e5780-fa5b-012d-f7b3-123135003972</root_account_uuid>
+  <default_post_policy>
+    <post_manually>false</post_manually>
+  </default_post_policy>
+  <allow_final_grade_override>false</allow_final_grade_override>
+  <enable_course_paces>false</enable_course_paces>
+</course>

@@ -118,8 +118,8 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Added **Membership** sign-up page (`membership.html`) — free name+email sign-up via MailerLite, styled to match the site. Live at `https://jolandata.github.io/membership.html`.
 - Added **Membership** link to the site-wide nav (index, GenXR Watch, Publications).
 - Added **course delivery scaffold** (`courses/`): `index.html` course portal with a lightweight access-code gate + module/lesson list, plus `lesson-template.html` and two placeholder lessons (`lesson-1.html`, `lesson-2.html`) with previous/next navigation.
-- Route decision: no LMS, no paid hosting. Course from `.imscc` (IMS Common Cartridge / Blackboard format) will be **remade as static HTML pages** on the free GitHub Pages site. Membership is free (name+email), so the portal gate is a lightweight client-side access code, not true security.
-- TODO: supply course source (`.imscc` or topic outline) to fill the lesson pages with real content; optionally create a dedicated MailerLite membership form/group and swap the embedded form ID on `membership.html`.
+- Route decision: no LMS, no paid hosting. Course from `.imscc` (IMS Common Cartridge / Blackboard format) remade as static HTML pages on the free GitHub Pages site. Membership is free (name+email), so the portal gate is a lightweight client-side access code, not true security.
+- **Course fully converted from the `.imscc` (2026-10-14):** "Chief Metaverse Officer: Converging Technologies in Product Management & Ownership (AI, XR, Blockchain, HCI)". 47 pages generated under `courses/` — 5 modules (Getting Started + Weeks 1–4), all active lessons + assignments as clean HTML matching the site design, plus 3 quizzes rendered as self-check knowledge pages with correct answers marked. Portal at `courses/index.html` lists all 47 items behind the member access gate; course hero illustration shipped to `imgs/course-hero.jpg`; source extract kept under `courses/_charter-extract/` and `courses/_assets/`.
 
 ### 2026-10-05
 

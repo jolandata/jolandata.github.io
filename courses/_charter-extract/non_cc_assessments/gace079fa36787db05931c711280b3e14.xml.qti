@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <objectbank ident="gace079fa36787db05931c711280b3e14">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>bank_title</fieldlabel>
+        <fieldentry>Module 1, topic 1</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_context_uuid</fieldlabel>
+        <fieldentry>IglnEKXSlrp2gDvPrGSozDhm4njQd3qKmSl2Jzhe</fieldentry>
+      </qtimetadatafield>
+      <qtimetadatafield>
+        <fieldlabel>bank_state</fieldlabel>
+        <fieldentry>active</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <item ident="ge764b6d22894ab3f73c4bdb867607828" title="Question 1">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>8303,1120,6498,7911</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;Which of the following describes a promise of the metaverse related to user security and transactions?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A. AI-generated avatars&lt;br&gt;B. Exchange traded products (ETPs) as native cryptocurrency&lt;br&gt;C. Enhanced user interfaces for virtual reality&lt;br&gt;D. AI-powered virtual environments for education&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="8303">
+              <material>
+                <mattext texttype="text/plain">B. Exchange traded products (ETPs) as native cryptocurrency</mattext>
+              </material>
+            </response_label>
+            <response_label ident="1120">
+              <material>
+                <mattext texttype="text/plain">A. AI-generated avatars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6498">
+              <material>
+                <mattext texttype="text/plain">C. Enhanced user interfaces for virtual reality</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7911">
+              <material>
+                <mattext texttype="text/plain">D. AI-powered virtual environments for education</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8303</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8303_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">1120</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="1120_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6498</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6498_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7911</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7911_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">8303</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="8303_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;strong&gt;Correct Answer:&lt;/strong&gt; B. Exchange traded products (ETPs) as native cryptocurrency&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; ETPs as native cryptocurrency in the metaverse ensure secure, transparent, and efficient digital transactions. Option A is about AI's role in social interactions. Option C pertains to HCI design. Option D relates to the application of AI in education.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="1120_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answer&lt;/h4&gt;
+&lt;h4&gt;Question 1:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A. AI-generated avatars&lt;/strong&gt;: This is an AI application for social interactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6498_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answer&lt;/h4&gt;
+&lt;h4&gt;Question 1:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C. Enhanced user interfaces for virtual reality&lt;/strong&gt;: This is related to HCI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7911_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answer&lt;/h4&gt;
+&lt;h4&gt;Question 1:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D. AI-powered virtual environments for education&lt;/strong&gt;: This is an application of AI in education.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g616c53d96ec7a63f02b74f2ceb19feaf" title="Question 2">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>2945,6719,7294,4236</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;How do AI-powered operations (AIOps) benefit the metaverse?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A. By creating realistic user avatars&lt;br&gt;B. By streamlining IT infrastructure management&lt;br&gt;C. By providing virtual representations of physical objects&lt;br&gt;D. By enhancing user interfaces&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="2945">
+              <material>
+                <mattext texttype="text/plain">B. By streamlining IT infrastructure management</mattext>
+              </material>
+            </response_label>
+            <response_label ident="6719">
+              <material>
+                <mattext texttype="text/plain">A. By creating realistic user avatars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="7294">
+              <material>
+                <mattext texttype="text/plain">C. By providing virtual representations of physical objects</mattext>
+              </material>
+            </response_label>
+            <response_label ident="4236">
+              <material>
+                <mattext texttype="text/plain">D. By enhancing user interfaces</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">2945</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="2945_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">6719</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="6719_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7294</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7294_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">4236</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="4236_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">2945</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="2945_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;strong&gt;Correct Answer:&lt;/strong&gt; B. By streamlining IT infrastructure management&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; AIOps use AI to manage IT infrastructure, ensuring robust, scalable, and reliable metaverse platforms. Option A is about AI-generated avatars. Option C pertains to digital twins. Option D is related to HCI.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="6719_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answers&lt;/h4&gt;
+&lt;h4&gt;Question 2:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A. By creating realistic user avatars&lt;/strong&gt;: This is an AI function related to user interaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="7294_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answers&lt;/h4&gt;
+&lt;h4&gt;Question 2:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C. By providing virtual representations of physical objects&lt;/strong&gt;: This describes digital twins, another AI application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="4236_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h4&gt;Explanation of Incorrect Answers&lt;/h4&gt;
+&lt;h4&gt;Question 2:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D. By enhancing user interfaces&lt;/strong&gt;: This pertains to HCI design.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g78bfaf5d6a9a8ec356200afbca62d0c9" title="Question 3">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>9174,870,3327,3791</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;What is the primary role of AI in the context of the metaverse?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A. Creating and managing user avatars&lt;br&gt;B. Enabling decentralized transactions through smart contracts&lt;br&gt;C. Facilitating autonomous decision-making and enhancing user experiences&lt;br&gt;D. Designing user interfaces for virtual reality applications&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="9174">
+              <material>
+                <mattext texttype="text/plain">C. Facilitating autonomous decision-making and enhancing user experiences</mattext>
+              </material>
+            </response_label>
+            <response_label ident="870">
+              <material>
+                <mattext texttype="text/plain">A. Creating and managing user avatars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3327">
+              <material>
+                <mattext texttype="text/plain">B. Enabling decentralized transactions through smart contracts</mattext>
+              </material>
+            </response_label>
+            <response_label ident="3791">
+              <material>
+                <mattext texttype="text/plain">D. Designing user interfaces for virtual reality applications</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9174</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9174_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">870</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="870_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3327</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3327_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">3791</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="3791_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">9174</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="9174_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;strong&gt;Correct Answer:&lt;/strong&gt; C. Facilitating autonomous decision-making and enhancing user experiences&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; AI's primary role in the metaverse involves using machine learning and deep learning algorithms to make decisions autonomously, enhancing various aspects of user experiences. Options A and D, while related to AI's functions, do not fully capture its primary role. Option B is related to blockchain technology, not AI.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="870_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 3:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A. Creating and managing user avatars&lt;/strong&gt;: While AI can create and manage avatars, this is a specific application rather than its primary role.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3327_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 3:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;B. Enabling decentralized transactions through smart contracts&lt;/strong&gt;: This is primarily a function of blockchain technology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="3791_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 3:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D. Designing user interfaces for virtual reality applications&lt;/strong&gt;: This falls under HCI and is not the main role of AI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+    <item ident="g621b00a6775ccf17d558c32cb441fc15" title="Question 4">
+      <itemmetadata>
+        <qtimetadata>
+          <qtimetadatafield>
+            <fieldlabel>question_type</fieldlabel>
+            <fieldentry>multiple_choice_question</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>points_possible</fieldlabel>
+            <fieldentry>1.0</fieldentry>
+          </qtimetadatafield>
+          <qtimetadatafield>
+            <fieldlabel>original_answer_ids</fieldlabel>
+            <fieldentry>7091,5467,9930,8516</fieldentry>
+          </qtimetadatafield>
+        </qtimetadata>
+      </itemmetadata>
+      <presentation>
+        <material>
+          <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;&lt;strong&gt;What is the significance of blockchain technology in the metaverse?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A. It enables the creation of realistic avatars&lt;br&gt;B. It supports decentralized applications (dapps) and direct user interactions&lt;br&gt;C. It designs and evaluates user interfaces&lt;br&gt;D. It provides AI-powered analytics for business applications&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;</mattext>
+        </material>
+        <response_lid ident="response1" rcardinality="Single">
+          <render_choice>
+            <response_label ident="7091">
+              <material>
+                <mattext texttype="text/plain">B. It supports decentralized applications (dapps) and direct user interactions</mattext>
+              </material>
+            </response_label>
+            <response_label ident="5467">
+              <material>
+                <mattext texttype="text/plain">A. It enables the creation of realistic avatars</mattext>
+              </material>
+            </response_label>
+            <response_label ident="9930">
+              <material>
+                <mattext texttype="text/plain">C. It designs and evaluates user interfaces</mattext>
+              </material>
+            </response_label>
+            <response_label ident="8516">
+              <material>
+                <mattext texttype="text/plain">D. It provides AI-powered analytics for business applications</mattext>
+              </material>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+        </outcomes>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">7091</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="7091_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">5467</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="5467_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">9930</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="9930_fb"/>
+        </respcondition>
+        <respcondition continue="Yes">
+          <conditionvar>
+            <varequal respident="response1">8516</varequal>
+          </conditionvar>
+          <displayfeedback feedbacktype="Response" linkrefid="8516_fb"/>
+        </respcondition>
+        <respcondition continue="No">
+          <conditionvar>
+            <varequal respident="response1">7091</varequal>
+          </conditionvar>
+          <setvar action="Set" varname="SCORE">100</setvar>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="7091_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;strong&gt;Correct Answer:&lt;/strong&gt; B. It supports decentralized applications (dapps) and direct user interactions&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; Blockchain technology in the metaverse is crucial for enabling decentralized applications, ensuring users have control over their data and interactions. Option A is related to AI. Option C is related to HCI. Option D is a business application of AI within the metaverse.</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="5467_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 4:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A. It enables the creation of realistic avatars&lt;/strong&gt;: This is an AI application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="9930_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 4:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C. It designs and evaluates user interfaces&lt;/strong&gt;: This is related to HCI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+      <itemfeedback ident="8516_fb">
+        <flow_mat>
+          <material>
+            <mattext texttype="text/html">&lt;h3&gt;Explanation of Incorrect Answer&lt;/h3&gt;
+&lt;h4&gt;Question 4:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;D. It provides AI-powered analytics for business applications&lt;/strong&gt;: This is an AI function, not blockchain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Try again?&lt;/p&gt;</mattext>
+          </material>
+        </flow_mat>
+      </itemfeedback>
+    </item>
+  </objectbank>
+</questestinterop>

@@ -3,153 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Dr. Jolanda G. Tromp's free course portal — access the member course modules on XR, AI, and human-centered innovation.">
+<meta name="description" content="Chief Metaverse Officer course portal — member access to the XR-AI Product Management course by Dr. Jolanda G. Tromp.">
 <meta name="theme-color" content="#0a0a0f">
 <title>Course Portal | Dr. Jolanda G. Tromp</title>
 <link rel="icon" type="image/svg+xml" href="../imgs/favicon.svg">
-
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<!-- Styles -->
 <link rel="stylesheet" href="../style.css">
-
 <style>
-  .page-hero {
-    padding: clamp(6rem, 14vh, 9rem) 0 2rem;
-    position: relative;
-    text-align: center;
-  }
-  .page-hero__title {
-    font-family: var(--ff-display);
-    font-size: var(--fs-h2);
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 0.75rem;
-  }
-  .page-hero__lede {
-    max-width: 640px;
-    margin: 0 auto;
-    color: var(--text-secondary);
-  }
-  /* ─── Gate ─── */
-  .gate {
-    max-width: 560px;
-    margin: var(--space-section) auto 0;
-    padding: 2.5rem 1.5rem;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    text-align: center;
-  }
+  .page-hero { padding: clamp(6rem,14vh,9rem) 0 2rem; position: relative; text-align: center; }
+  .page-hero__title { font-family: var(--ff-display); font-size: var(--fs-h2); font-weight: 700; line-height: 1.15; margin-bottom: 0.75rem; }
+  .page-hero__lede { max-width: 660px; margin: 0 auto; color: var(--text-secondary); }
+  .course-img { margin: 1.5rem auto; border-radius: 16px; border: 1px solid var(--border); max-width: 560px; }
+  .gate { max-width: 560px; margin: var(--space-section) auto 0; padding: 2.5rem 1.5rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 16px; text-align: center; }
   .gate__lock { font-size: 1.6rem; margin-bottom: 0.5rem; }
-  .gate h2 {
-    font-family: var(--ff-display);
-    font-size: var(--fs-h3);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
+  .gate h2 { font-family: var(--ff-display); font-size: var(--fs-h3); font-weight: 600; margin-bottom: 0.5rem; }
   .gate p { color: var(--text-secondary); font-size: var(--fs-small); margin-bottom: 1.25rem; }
   .gate__form { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
-  .gate__input {
-    background: var(--bg-primary);
-    border: 1px solid var(--border);
-    color: var(--text-primary);
-    border-radius: 999px;
-    padding: 0.6rem 1.1rem;
-    font-family: var(--ff-body);
-    font-size: var(--fs-small);
-    outline: none;
-    min-width: 220px;
-  }
+  .gate__input { background: var(--bg-primary); border: 1px solid var(--border); color: var(--text-primary); border-radius: 999px; padding: 0.6rem 1.1rem; font-family: var(--ff-body); font-size: var(--fs-small); outline: none; min-width: 220px; }
   .gate__input:focus { border-color: var(--accent-xr); }
   .gate__err { color: var(--accent-ai); font-size: var(--fs-small); min-height: 1.2em; margin-top: 0.6rem; }
-  /* ─── Lessons ─── */
   .lessons { display: none; margin-top: var(--space-section); }
   .lessons--open { display: block; }
   .lessons__head { text-align: center; margin-bottom: 2rem; }
-  .lessons__head h2 {
-    font-family: var(--ff-display);
-    font-size: var(--fs-h3);
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
+  .lessons__head h2 { font-family: var(--ff-display); font-size: var(--fs-h3); font-weight: 600; margin-bottom: 0.5rem; }
   .lessons__head p { color: var(--text-secondary); font-size: var(--fs-small); }
-  .module {
-    margin-bottom: 2rem;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 1.5rem 1.25rem;
-  }
-  .module__title {
-    font-family: var(--ff-display);
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--accent-xr);
-  }
-  .lesson {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.8rem 0;
-    border-top: 1px solid var(--border);
-  }
-  .lesson:first-of-type { border-top: none; }
-  .lesson__num { color: var(--text-muted); font-family: var(--ff-display); font-size: var(--fs-small); }
-  .lesson__title { font-weight: 500; }
-  .lesson__link { color: var(--accent-ai); font-size: var(--fs-small); font-weight: 500; }
-  .lesson__link:hover { text-decoration: underline; }
-  .placeholder-note {
-    margin-top: 1rem;
-    padding: 0.9rem 1rem;
-    border-radius: 12px;
-    background: var(--bg-tertiary);
-    border: 1px dashed var(--border);
-    color: var(--text-secondary);
-    font-size: var(--fs-small);
-    line-height: 1.5;
-  }
+  .module { margin-bottom: 2rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem 1.75rem; }
+  .module__title { font-family: var(--ff-display); font-size: 1.15rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--accent-xr); }
+  .pl { display: flex; align-items: baseline; gap: 1rem; padding: 0.6rem 0; border-top: 1px solid var(--border); }
+  .pl:first-of-type { border-top: none; }
+  .pl__num { color: var(--text-muted); font-family: var(--ff-display); font-size: var(--fs-small); min-width: 2em; }
+  .pl__title { font-weight: 500; }
+  .pl__title a { color: var(--text-primary); }
+  .pl__title a:hover { color: var(--accent-xr); }
+  .pl__type { margin-left: 0.6rem; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-hf); border: 1px solid var(--border); border-radius: 999px; padding: 0.12em 0.6em; vertical-align: middle; }
 </style>
 </head>
 <body>
-
-<!-- ═══════════ STICKY NAV ═══════════ -->
-<nav class="nav" id="nav" aria-label="Main navigation">
-  <div class="nav__inner">
-    <a href="../index.html#hero" class="nav__logo" aria-label="Home">
-      <img class="nav__logo-img" src="../imgs/logo.png" alt="" width="69" height="69">
-      <span>Dr. Jolanda G. Tromp</span>
-    </a>
-    <button class="nav__hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav__links" id="navLinks">
-      <li><a href="../index.html#services" class="nav__link">Services</a></li>
-      <li><a href="../index.html#about" class="nav__link">About</a></li>
-      <li><a href="../index.html#work" class="nav__link">Work</a></li>
-      <li><a href="../genxr-watch.html" class="nav__link">GenXR Watch</a></li>
-      <li><a href="../publications.html" class="nav__link">Publications</a></li>
-      <li><a href="../membership.html" class="nav__link nav__link--cta">Membership</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- ═══════════ PAGE HERO ═══════════ -->
+<nav class="nav" id="nav" aria-label="Main navigation"><div class="nav__inner"><a href="../index.html#hero" class="nav__logo" aria-label="Home"><img class="nav__logo-img" src="../imgs/logo.png" alt="" width="69" height="69"><span>Dr. Jolanda G. Tromp</span></a><button class="nav__hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button><ul class="nav__links" id="navLinks"><li><a href="../index.html#services" class="nav__link">Services</a></li><li><a href="../index.html#about" class="nav__link">About</a></li><li><a href="../index.html#work" class="nav__link">Work</a></li><li><a href="../genxr-watch.html" class="nav__link">GenXR Watch</a></li><li><a href="../publications.html" class="nav__link">Publications</a></li><li><a href="../membership.html" class="nav__link nav__link--cta">Membership</a></li></ul></div></nav>
 <header class="page-hero">
   <div class="container">
-    <h1 class="page-hero__title">Course Portal</h1>
-    <p class="page-hero__lede">Your member course on XR, AI, and human-centered innovation. Enter your access code to unlock the modules.</p>
+    <h1 class="page-hero__title">Chief Metaverse Officer Course</h1>
+    <p class="page-hero__lede">Converging Technologies in Product Management &amp; Ownership — AI, XR, Blockchain &amp; HCI.&nbsp; 4 weeks, at your own pace.</p>
+    <img class="course-img" src="../imgs/course-hero.jpg" alt="XR-AI Product Management illustration">
   </div>
 </header>
-
 <main class="container">
-
-  <!-- ═══════════ ACCESS GATE ═══════════ -->
   <section class="gate" id="gate">
     <div class="gate__lock" aria-hidden="true">🔐</div>
     <h2>Member access</h2>
@@ -160,82 +60,25 @@
     </form>
     <div class="gate__err" id="gateErr" role="alert"></div>
   </section>
-
-  <!-- ═══════════ LESSONS (unlocked) ═══════════ -->
   <section class="lessons" id="lessons">
     <div class="lessons__head">
       <h2>Course modules</h2>
-      <p>Work through the modules in order, or jump to any lesson.</p>
+      <p>Work through the modules in order, or jump to any lesson. 47 lessons &amp; quizzes.</p>
     </div>
-
-    <!-- MODULE 1 (scaffold — content to be supplied) -->
-    <div class="module">
-      <h3 class="module__title">Module 1 · Coming soon</h3>
-      <div class="lesson">
-        <div class="lesson__num">1.1</div>
-        <div class="lesson__title">Lesson one title</div>
-        <a class="lesson__link" href="lesson-1.html">Open&nbsp;&rarr;</a>
-      </div>
-      <div class="lesson">
-        <div class="lesson__num">1.2</div>
-        <div class="lesson__title">Lesson two title</div>
-        <a class="lesson__link" href="lesson-2.html">Open&nbsp;&rarr;</a>
-      </div>
-    </div>
-
-    <p class="placeholder-note"><strong>Note to Dr. Tromp:</strong> the modules and lessons above are a scaffold.
-      To fill them in, send me the `.imscc` file or a topic outline and I'll rebuild the course as lesson
-      pages here — each lesson is its own static HTML file under <code>courses/</code>.</p>
+    <section class="module"><h3 class="module__title">Getting Started</h3><div class="pl"><div class="pl__num">01</div><div class="pl__title"><a href="welcome-01.html">Chief Metaverse Officer Course Overview</a></div></div><div class="pl"><div class="pl__num">02</div><div class="pl__title"><a href="welcome-02.html">Introduction to your course leader</a></div></div><div class="pl"><div class="pl__num">03</div><div class="pl__title"><a href="welcome-03.html">Business Model Canvas (BMC) as a Framework</a></div></div><div class="pl"><div class="pl__num">04</div><div class="pl__title"><a href="welcome-04.html">Moodboard Template</a></div></div><div class="pl"><div class="pl__num">05</div><div class="pl__title"><a href="welcome-05.html">Pitchdeck Template and Example</a></div></div><div class="pl"><div class="pl__num">06</div><div class="pl__title"><a href="welcome-06.html">Plethora of Prototyping Tools</a></div></div></section><section class="module"><h3 class="module__title">Week 1 - Module 1: Introduction to XR-AI in Product Management</h3><div class="pl"><div class="pl__num">01</div><div class="pl__title"><a href="week1-01.html">Introduction to the Role of XR-AI Product Manager</a></div></div><div class="pl"><div class="pl__num">02</div><div class="pl__title"><a href="week1-02.html">Introduction to Spatial Computing</a></div></div><div class="pl"><div class="pl__num">03</div><div class="pl__title"><a href="week1-03.html">Introduction to Digital Twins and Smart Environments</a></div></div><div class="pl"><div class="pl__num">04</div><div class="pl__title"><a href="week1-04.html">Entering the XR-AI Job Market as a Product Manager</a></div></div><div class="pl"><div class="pl__num">05</div><div class="pl__title"><a href="week1-05.html">Transferable Skills for XR-AI Product Management</a></div></div><div class="pl"><div class="pl__num">06</div><div class="pl__title"><a href="week1-06.html">Project Manager vs. Product Manager vs. Product Owner</a></div></div><div class="pl"><div class="pl__num">07</div><div class="pl__title"><a href="week1-07.html">General Product Manager vs. Technical Product Manager</a></div></div><div class="pl"><div class="pl__num">08</div><div class="pl__title"><a href="week1-08.html">XR-AI Expert as Technical Product Manager</a></div></div><div class="pl"><div class="pl__num">09</div><div class="pl__title"><a href="week1-09.html">Introduction to the Convergence of AI, XR, Blockchain, and HCI Design and Evaluation</a></div></div><div class="pl"><div class="pl__num">10</div><div class="pl__title"><a href="week1-10.html">Quiz: Introduction to the Convergence of AI, XR, Blockchain, and HCI</a><span class="pl__type pl__type--quiz">Quiz</span></div></div><div class="pl"><div class="pl__num">11</div><div class="pl__title"><a href="week1-11.html">Standing Up on the Intersection of AI, XR, Blockchain, and HCI Technologies</a></div></div><div class="pl"><div class="pl__num">12</div><div class="pl__title"><a href="week1-12.html">Quiz: On the Intersection of AI, XR, Blockchain, and HCI</a><span class="pl__type pl__type--quiz">Quiz</span></div></div><div class="pl"><div class="pl__num">13</div><div class="pl__title"><a href="week1-13.html">More about AI for XR-AI PMOs</a></div></div><div class="pl"><div class="pl__num">14</div><div class="pl__title"><a href="week1-14.html">More about XR for XR-AI PMOs</a></div></div><div class="pl"><div class="pl__num">15</div><div class="pl__title"><a href="week1-15.html">More about Blockchain for XR-AI PMOs</a></div></div><div class="pl"><div class="pl__num">16</div><div class="pl__title"><a href="week1-16.html">More about HCI for XR-AI PMOs</a></div></div><div class="pl"><div class="pl__num">17</div><div class="pl__title"><a href="week1-17.html">More about XR Prototyping for XR-AI PMOs</a></div></div><div class="pl"><div class="pl__num">18</div><div class="pl__title"><a href="week1-18.html">Working as an XR-AI Product Manager at the intersection of new technologies</a></div></div><div class="pl"><div class="pl__num">19</div><div class="pl__title"><a href="week1-19.html">Quiz: Test your understanding of the role of XR-AI Product Manager</a><span class="pl__type pl__type--quiz">Quiz</span></div></div><div class="pl"><div class="pl__num">20</div><div class="pl__title"><a href="week1-20.html">XR-AI Product Manager / Product Owner HCI Tools</a></div></div><div class="pl"><div class="pl__num">21</div><div class="pl__title"><a href="week1-21.html">Assignment 1A: Write a short Essay about Your Role as Product Manager in Emerging Technologies</a></div></div><div class="pl"><div class="pl__num">22</div><div class="pl__title"><a href="week1-22.html">In-Depth Readings on the Intersection of AI, XR, Blockchain, and HCI</a></div></div><div class="pl"><div class="pl__num">23</div><div class="pl__title"><a href="week1-23.html">Case studies and examples of successful products integrating these technologies</a></div></div><div class="pl"><div class="pl__num">24</div><div class="pl__title"><a href="week1-24.html">Assignment 1B: Research and Analyze a Product that Integrates Emerging Technologies</a></div></div><div class="pl"><div class="pl__num">25</div><div class="pl__title"><a href="week1-25.html">Assignment 1C: Use Two Product Managers Tools to Create Your Own XR-AI Product Proposal</a></div></div></section><section class="module"><h3 class="module__title">Week 2 - Module 2: Agile Lean XR-AI Product Management in the Age of Disruption</h3><div class="pl"><div class="pl__num">01</div><div class="pl__title"><a href="week2-01.html">Introduction to Agile Product Management in the Age of Disruption</a></div></div><div class="pl"><div class="pl__num">02</div><div class="pl__title"><a href="week2-02.html">Agile principles and methodologies for a Product Manager: In-Depth Detail</a></div></div><div class="pl"><div class="pl__num">03</div><div class="pl__title"><a href="week2-03.html">Integrating Agile Product Development into XR-AI Innovation</a></div></div><div class="pl"><div class="pl__num">04</div><div class="pl__title"><a href="week2-04.html">Hands-on exercises in agile product management</a></div></div><div class="pl"><div class="pl__num">05</div><div class="pl__title"><a href="week2-05.html">Assignment: Develop a product roadmap integrating AI, XR, Blockchain, or HCI elements in Nine steps</a></div></div></section><section class="module"><h3 class="module__title">Week 3 - Module 3: Designing User-Centric Experiences with and for XR-AI </h3><div class="pl"><div class="pl__num">01</div><div class="pl__title"><a href="week3-01.html">Designing User-Centric Experiences with Emerging Technologies</a></div></div><div class="pl"><div class="pl__num">02</div><div class="pl__title"><a href="week3-02.html">Principles of User-Centered Design for 3D XR Solutions</a></div></div><div class="pl"><div class="pl__num">03</div><div class="pl__title"><a href="week3-03.html">Leveraging AI, XR, Blockchain, and HCI for enhanced user experiences</a></div></div><div class="pl"><div class="pl__num">04</div><div class="pl__title"><a href="week3-04.html">Prototyping and user testing techniques</a></div></div><div class="pl"><div class="pl__num">05</div><div class="pl__title"><a href="week3-05.html">Assignment: Create a high-fidelity prototype demonstrating user-centric design principles</a></div></div></section><section class="module"><h3 class="module__title">Week 4 - Module 4: Building Your Personalized Professional Brand as XR-AI Product Manager/Product Owner</h3><div class="pl"><div class="pl__num">01</div><div class="pl__title"><a href="week4-01.html">Advice on Entering the XR-AI Jobmarket</a></div></div><div class="pl"><div class="pl__num">02</div><div class="pl__title"><a href="week4-02.html">Example XR-AI Product Manager Job Descriptions</a></div></div><div class="pl"><div class="pl__num">03</div><div class="pl__title"><a href="week4-03.html">Crafting a compelling CV and portfolio</a></div></div><div class="pl"><div class="pl__num">04</div><div class="pl__title"><a href="week4-04.html">Personal branding strategies for job seekers</a></div></div><div class="pl"><div class="pl__num">05</div><div class="pl__title"><a href="week4-05.html">Networking and Job Search Techniques</a></div></div><div class="pl"><div class="pl__num">06</div><div class="pl__title"><a href="week4-06.html">Assignment: Develop a personalized professional marketing plan highlighting your skills and expertise as an XR-AI Product Manager / Product Owner</a></div></div></section>
+    <p class="placeholder-note" style="margin-top:1.5rem;padding:0.9rem 1rem;border-radius:12px;background:var(--bg-tertiary);border:1px dashed var(--border);color:var(--text-secondary);font-size:var(--fs-small);line-height:1.5;"><strong>Note:</strong> quizzes are shown as self-check pages with the correct answers marked. Enjoy the course — and feel free to email the course leader with any questions.</p>
   </section>
-
 </main>
-
-<!-- ═══════════ FOOTER ═══════════ -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer__inner">
-      <p class="footer__copy">&copy; 2026 Dr. Jolanda G. Tromp. All rights reserved.</p>
-      <a href="../membership.html" class="footer__top" aria-label="Back to membership">&larr; Membership</a>
-    </div>
-  </div>
-</footer>
-
-<!-- Scripts -->
+<footer class="footer"><div class="container"><div class="footer__inner"><p class="footer__copy">&copy; 2026 Dr. Jolanda G. Tromp. All rights reserved.</p><a href="../membership.html" class="footer__top" aria-label="Back to membership">&larr; Membership</a></div></div></footer>
 <script>
 'use strict';
-
-/* ── Access code ─────────────────────────────────────────────
-   Free membership → this is a LIGHTWEIGHT gate, not real security
-   (the code lives in client-side source). Change it freely. */
-const ACCESS_CODE = 'JOLANDA-COURSE-2026';
-
-const gate = document.getElementById('gate');
-const lessons = document.getElementById('lessons');
-const form = document.getElementById('gateForm');
-const codeInput = document.getElementById('gateCode');
-const err = document.getElementById('gateErr');
-
-function unlock() {
-  gate.style.display = 'none';
-  lessons.classList.add('lessons--open');
-  lessons.style.display = 'block';
-}
-
-// Unlock immediately if a valid code is already in the URL (shareable link)
-const params = new URLSearchParams(window.location.search);
-if (params.get('code') === ACCESS_CODE) {
-  unlock();
-}
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  if (codeInput.value.trim().toUpperCase() === ACCESS_CODE) {
-    err.textContent = '';
-    unlock();
-  } else {
-    err.textContent = 'That code did not work. Check your email and try again.';
-  }
-});
+const ACCESS_CODE='JOLANDA-COURSE-2026';
+const gate=document.getElementById('gate');const lessons=document.getElementById('lessons');
+const form=document.getElementById('gateForm');const codeInput=document.getElementById('gateCode');const err=document.getElementById('gateErr');
+function unlock(){gate.style.display='none';lessons.classList.add('lessons--open');lessons.style.display='block';}
+const params=new URLSearchParams(window.location.search);
+if(params.get('code')===ACCESS_CODE){unlock();}
+form.addEventListener('submit',(e)=>{e.preventDefault();if(codeInput.value.trim().toUpperCase()===ACCESS_CODE){err.textContent='';unlock();}else{err.textContent='That code did not work. Check your email and try again.';}});
 </script>
 <script src="../script.js" defer></script>
 </body>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="g8d70d6030e3aa88c30fae5013832fd62" title="Quiz: On the Intersection of AI, XR, Blockchain, and HCI">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <section ident="g115b47bf801a5a7260a638974289b324" title="Group 0">
+        <selection_ordering>
+          <selection>
+            <selection_number>4</selection_number>
+            <selection_extension>
+              <points_per_item>1.0</points_per_item>
+            </selection_extension>
+          </selection>
+        </selection_ordering>
+        <item ident="ge924e90a4a5165bbc33b0b78a76a26a7" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>original_answer_ids</fieldlabel>
+                <fieldentry>5429,4040,7244,7961</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>gedea030453821ff4c2cdbe766997bf42</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;Which of the following best describes how AI can be used in product development and management?&lt;/strong&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="5429">
+                  <material>
+                    <mattext texttype="text/plain">AI can analyze large datasets to extract valuable insights for product strategy and decision-making</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="4040">
+                  <material>
+                    <mattext texttype="text/plain">AI can create physical prototypes of products automatically</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="7244">
+                  <material>
+                    <mattext texttype="text/plain">AI replaces product managers by automating all decision-making processes</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="7961">
+                  <material>
+                    <mattext texttype="text/plain">AI can be used to create XR experiences but cannot be embedded in XR applications</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">5429</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="5429_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">4040</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="4040_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">7244</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="7244_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">7961</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="7961_fb"/>
+            </respcondition>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">5429</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+          <itemfeedback ident="5429_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI can analyze large datasets to extract valuable insights for product strategy and decision-making&lt;/strong&gt;: This is correct because AI is used to process and analyze large amounts of data, helping product managers make informed decisions based on the insights gained.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="4040_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI can create physical prototypes of products automatically&lt;/strong&gt;: AI does not create physical prototypes; it aids in decision-making and optimizing processes but does not fabricate physical items.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="7244_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI replaces product managers by automating all decision-making processes&lt;/strong&gt;: AI assists product managers by providing insights and automating repetitive tasks but does not entirely replace human decision-making.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="7961_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI can be used to create XR experiences but cannot be embedded in XR applications&lt;/strong&gt;: AI can indeed be embedded within XR applications to enhance functionality and create more immersive experiences.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+        </item>
+        <item ident="g6a8fd5c3a5d1106cfeaa43b5a8bd873c" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>original_answer_ids</fieldlabel>
+                <fieldentry>4010,714,3070,4463</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>gf47b767d37e06559ff801f2d253307ba</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;How does XR technology enhance user engagement in product development?&lt;/strong&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="4010">
+                  <material>
+                    <mattext texttype="text/plain">XR provides immersive product demonstrations, training simulations, and interactive experiences</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="714">
+                  <material>
+                    <mattext texttype="text/plain">XR allows users to create and sell their own digital products</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="3070">
+                  <material>
+                    <mattext texttype="text/plain">XR can only be used for gaming and entertainment purposes</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="4463">
+                  <material>
+                    <mattext texttype="text/plain">XR replaces the need for physical prototypes and user testing.</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">4010</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="4010_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">714</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="714_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">3070</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="3070_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">4463</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="4463_fb"/>
+            </respcondition>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">4010</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+          <itemfeedback ident="4010_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;XR provides immersive product demonstrations, training simulations, and interactive experiences&lt;/strong&gt;: This is correct because XR technologies create engaging and interactive environments that can significantly enhance how users experience and interact with products.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="714_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;XR allows users to create and sell their own digital products&lt;/strong&gt;: While XR can be used in digital product creation, its primary use in this context is to enhance user engagement through immersive experiences.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="3070_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;XR can only be used for gaming and entertainment purposes&lt;/strong&gt;: XR has applications beyond gaming and entertainment, including product development, training, and remote collaboration.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="4463_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XR can only be used for gaming and entertainment purposes&lt;/strong&gt;: XR has applications beyond gaming and entertainment, including product development, training, and remote collaboration.&lt;/p&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+        </item>
+        <item ident="ga5a706a493496dcd5d7a5322d030efdc" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>original_answer_ids</fieldlabel>
+                <fieldentry>3482,9021,8744,6038</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>gdba69ee690ec1e0de9746ac959461588</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;What role does Blockchain play in product ownership and management?&lt;/strong&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="3482">
+                  <material>
+                    <mattext texttype="text/plain">Blockchain ensures transparency and trust in supply chains by tracking and authenticating the provenance of products</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="9021">
+                  <material>
+                    <mattext texttype="text/plain">Blockchain is primarily used for creating 3D models</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="8744">
+                  <material>
+                    <mattext texttype="text/plain">Blockchain technology is used to enhance the graphics in XR applications</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="6038">
+                  <material>
+                    <mattext texttype="text/plain">Blockchain solely focuses on financial transactions and cannot be applied to product management</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">3482</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="3482_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">9021</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="9021_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">8744</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="8744_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">6038</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="6038_fb"/>
+            </respcondition>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">3482</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+          <itemfeedback ident="3482_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blockchain ensures transparency and trust in supply chains by tracking and authenticating the provenance of products&lt;/strong&gt;: This is correct because Blockchain provides a secure and transparent way to track the history and authenticity of products, which is crucial for managing supply chains.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="9021_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blockchain is primarily used for creating 3D models&lt;/strong&gt;: Blockchain is a distributed ledger technology and is not used for creating 3D models.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="8744_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blockchain technology is used to enhance the graphics in XR applications&lt;/strong&gt;: Blockchain does not enhance graphics; it is used for secure and transparent record-keeping and transactions.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="6038_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blockchain solely focuses on financial transactions and cannot be applied to product management&lt;/strong&gt;: Blockchain has applications beyond financial transactions, including product management, supply chain transparency, and smart contracts&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+        </item>
+        <item ident="g53055f41a53cddec91febc0d1e890466" title="Question">
+          <itemmetadata>
+            <qtimetadata>
+              <qtimetadatafield>
+                <fieldlabel>question_type</fieldlabel>
+                <fieldentry>multiple_choice_question</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>points_possible</fieldlabel>
+                <fieldentry>1.0</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>original_answer_ids</fieldlabel>
+                <fieldentry>5152,8855,9557,9953</fieldentry>
+              </qtimetadatafield>
+              <qtimetadatafield>
+                <fieldlabel>assessment_question_identifierref</fieldlabel>
+                <fieldentry>g2e1df194c1edf39556c4b2c0004fc29e</fieldentry>
+              </qtimetadatafield>
+            </qtimetadata>
+          </itemmetadata>
+          <presentation>
+            <material>
+              <mattext texttype="text/html">&lt;div&gt;&lt;strong&gt;Which of the following best describes the importance of HCI in product ownership?&lt;/strong&gt;&lt;/div&gt;</mattext>
+            </material>
+            <response_lid ident="response1" rcardinality="Single">
+              <render_choice>
+                <response_label ident="5152">
+                  <material>
+                    <mattext texttype="text/plain">HCI principles ensure that products are intuitive, accessible, and user-friendly</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="8855">
+                  <material>
+                    <mattext texttype="text/plain">HCI replaces the need for user feedback in product development</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="9557">
+                  <material>
+                    <mattext texttype="text/plain">HCI is only concerned with the technical specifications of a product</mattext>
+                  </material>
+                </response_label>
+                <response_label ident="9953">
+                  <material>
+                    <mattext texttype="text/plain">HCI methods are irrelevant in the context of emerging technologies like AI and XR</mattext>
+                  </material>
+                </response_label>
+              </render_choice>
+            </response_lid>
+          </presentation>
+          <resprocessing>
+            <outcomes>
+              <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+            </outcomes>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">5152</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="5152_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">8855</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="8855_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">9557</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="9557_fb"/>
+            </respcondition>
+            <respcondition continue="Yes">
+              <conditionvar>
+                <varequal respident="response1">9953</varequal>
+              </conditionvar>
+              <displayfeedback feedbacktype="Response" linkrefid="9953_fb"/>
+            </respcondition>
+            <respcondition continue="No">
+              <conditionvar>
+                <varequal respident="response1">5152</varequal>
+              </conditionvar>
+              <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+          </resprocessing>
+          <itemfeedback ident="5152_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Correct Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HCI principles ensure that products are intuitive, accessible, and user-friendly&lt;/strong&gt;: This is correct because HCI focuses on designing user interfaces and experiences that are easy to use and meet the needs of users.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="8855_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HCI replaces the need for user feedback in product development&lt;/strong&gt;: HCI actually emphasizes the importance of user feedback to continually improve product design and usability.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="9557_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HCI is only concerned with the technical specifications of a product&lt;/strong&gt;: HCI is primarily concerned with the interaction between users and computers, not just technical specifications.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+          <itemfeedback ident="9953_fb">
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html">&lt;p&gt;&lt;strong&gt;Explanation of the Wrong Answer:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HCI methods are irrelevant in the context of emerging technologies like AI and XR&lt;/strong&gt;: HCI methods are highly relevant and crucial for designing effective and user-friendly interactions with emerging technologies.&lt;/li&gt;
+&lt;/ul&gt;</mattext>
+              </material>
+            </flow_mat>
+          </itemfeedback>
+        </item>
+      </section>
+    </section>
+  </assessment>
+</questestinterop>

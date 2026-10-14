@@ -42,8 +42,7 @@ courses on XR, AI, and human-centered innovation, who sign up to follow a course
 4. Nav updated site-wide; committed and pushed to `main` (auto-deploys).
 
 ## 6. Open items / blockers for full course
-- **Course content:** the `.imscc` file / topic outline has not yet been provided. Lessons are scaffolded
-  as templates; content must come from Dr. Tromp (send the `.imscc` or a topic outline to fill pages).
+- **Course content:** RESOLVED 2026-10-14 — the full `.imscc` was supplied and converted to 47 static course pages (see README work log). Minor cleanup possible: review a few internal links, and optionally add an interactive quiz experience later (currently static self-check pages).
 - **MailerLite form ID:** currently reusing the existing newsletter form embed; if a dedicated membership
   list/group is wanted, create it in MailerLite and swap one ID.
 

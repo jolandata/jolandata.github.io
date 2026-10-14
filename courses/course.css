@@ -1,0 +1,118 @@
+/* ═══════════════════════════════════════
+   Member Course — lesson styling
+   Shared by all lesson / knowledge-check pages in courses/
+   ═══════════════════════════════════════ */
+
+.lesson-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0 1rem;
+}
+.lesson-nav__back {
+  color: var(--accent-xr);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.lesson-body {
+  max-width: 780px;
+  margin: 0 auto var(--space-section);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+}
+.lesson-body .eyebrow {
+  font-family: var(--ff-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-hf);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.lesson-body h1 {
+  font-family: var(--ff-display);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+.lesson-body h2 {
+  font-family: var(--ff-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.8rem 0 0.6rem;
+  color: var(--accent-xr);
+}
+.lesson-body h3 {
+  font-family: var(--ff-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.4rem 0 0.5rem;
+  color: var(--accent-ai);
+}
+.lesson-body h4 {
+  font-family: var(--ff-display);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.2rem 0 0.4rem;
+}
+.lesson-body p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.lesson-body strong { color: var(--text-primary); font-weight: 600; }
+.lesson-body em { font-style: italic; }
+.lesson-body ul {
+  list-style: disc;
+  padding-left: 1.3rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.1rem;
+}
+.lesson-body ol {
+  list-style: decimal;
+  padding-left: 1.3rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.1rem;
+}
+.lesson-body li { margin-bottom: 0.4rem; line-height: 1.65; }
+.lesson-body li ul, .lesson-body li ol { margin-top: 0.3rem; margin-bottom: 0.3rem; }
+.lesson-body a { color: var(--accent-xr); text-decoration: underline; text-underline-offset: 2px; }
+.lesson-body a:hover { color: var(--text-primary); }
+.lesson-body img { border-radius: 12px; border: 1px solid var(--border); margin: 0.75rem 0; }
+.lesson-body blockquote {
+  border-left: 3px solid var(--accent-xr);
+  padding: 0.5rem 1.1rem;
+  margin: 1rem 0;
+  color: var(--text-secondary);
+  background: var(--bg-tertiary);
+  border-radius: 0 10px 10px 0;
+}
+.lesson-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: var(--fs-small);
+}
+.lesson-body th, .lesson-body td {
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+.lesson-body th { background: var(--bg-tertiary); color: var(--text-primary); font-weight: 600; }
+.lesson-body code {
+  background: var(--bg-tertiary);
+  padding: 0.1em 0.35em;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: var(--accent-cyan, var(--accent-xr));
+}
+.lesson-body hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }

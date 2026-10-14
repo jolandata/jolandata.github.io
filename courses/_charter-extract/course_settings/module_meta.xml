@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <module identifier="g93a4da041096bdb78f81e95649cee17f">
+    <title>Course Welcome Information</title>
+    <workflow_state>active</workflow_state>
+    <position>1</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g0aa098a18b529b0244f6588ad305a66c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Chief Metaverse Officer Course Overview</title>
+        <identifierref>g399b14515b688a1629d99f60239fd2e4</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9770c817b3c45c052b741ab3c1299a00">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to your course leader</title>
+        <identifierref>g201371f561c68b3763e6039b3dd35d24</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb7615648ee5777af87c4292ffbefc08d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Business Model Canvas (BMC) as a Framework</title>
+        <identifierref>g339c07ebeddf8643ff981cc7c1a1bd4f</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g16d2ad0eff1b258993f4ef25513165a7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Moodboard Template</title>
+        <identifierref>g0a439767aaca3fe59932240e5d9d0cd4</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc3167e98d43bc5a82684fe1fdebc923c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Pitchdeck Template and Example</title>
+        <identifierref>gc6e4293dcf57faa970c2538bd0a8afb9</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb0a1da71cc021f646185067d7632e5a5">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Plethora of Prototyping Tools</title>
+        <identifierref>gd389e3296845318b37779faf7f4dd5fc</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g71f57ae3c68c6170607b83ce3869dac8">
+    <title>Week 1 - Module 1: Introduction to XR-AI in Product Management</title>
+    <workflow_state>active</workflow_state>
+    <position>2</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g7c2a654d0a25d14e08300a986e71575b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to the Role of XR-AI Product Manager</title>
+        <identifierref>g46578f186f92120a78e372e136963ab4</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g1164a327d465f59a87514867054b7ce2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to Spatial Computing</title>
+        <identifierref>g6234480667724a0b9cf80dd40d5679fb</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd947bc7cc8589e6588a2bd4aecb8b233">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to Digital Twins and Smart Environments</title>
+        <identifierref>gbeb52a0ca02ec5c2cfa530ac7d43f63f</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g10f0c6bcd0e83e638381e72422b71352">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Entering the XR-AI Job Market as a Product Manager</title>
+        <identifierref>gdb46790f7da916caf4088c64c97a5e8c</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g160a3ff2a59287c2b5a2992e7c66ba9b">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Transferable Skills for XR-AI Product Management</title>
+        <identifierref>g9888c6c55d2aab5238d30dc2fc593bde</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gfc1b7f1c9e91a93640ca1820b67c0492">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Project Manager vs. Product Manager vs. Product Owner</title>
+        <identifierref>gc42c06b7c243886f543e56b9f7ad8edb</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g396f259cb9215f2059311f78fd68ab61">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>General Product Manager vs. Technical Product Manager</title>
+        <identifierref>g5638a2301b31305c9aa859990b86c097</identifierref>
+        <position>7</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3882a373b0adc341ab7300e8f82ad589">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>XR-AI Expert as Technical Product Manager</title>
+        <identifierref>g1352d03ac59f553396246fec97d523eb</identifierref>
+        <position>8</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g332dfcfb5d412280a7d9ec77f1072259">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to the Convergence of AI, XR, Blockchain, and HCI Design and Evaluation</title>
+        <identifierref>g28b9e0db31eea68dbc19add09a228883</identifierref>
+        <position>9</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd17d5cf41c8b772e5c07a9ed2d7f0103">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Useful Links - not used yet</title>
+        <identifierref>g0e016bef973d07d35ac270ab5c668625</identifierref>
+        <position>10</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g0d62e40db70bdf2f74fd320fded4f9b9">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Quiz: Introduction to the Convergence of AI, XR, Blockchain, and HCI</title>
+        <identifierref>g561fc79352ebfae325e2ed59abde0b93</identifierref>
+        <position>11</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g574ed72923f4d977f8dd0289715ed7e7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Standing Up on the Intersection of AI, XR, Blockchain, and HCI Technologies</title>
+        <identifierref>ga6eb15c21d982e90f8351ca3e8d8ce49</identifierref>
+        <position>12</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g07b771e839637d9ef8bb03c0d4643f11">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Quiz: On the Intersection of AI, XR, Blockchain, and HCI</title>
+        <identifierref>g8d70d6030e3aa88c30fae5013832fd62</identifierref>
+        <position>13</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g55cb55c07f4fe5fddce638c75ea88968">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>More about AI for XR-AI PMOs</title>
+        <identifierref>g75ad10953ef5e256bcd991f342cb19ab</identifierref>
+        <position>14</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gaaabe911e8a3f3d21769413e41cb307d">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>More about XR for XR-AI PMOs</title>
+        <identifierref>g44785a70e6d8d52b6523ce4c68a1781e</identifierref>
+        <position>15</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g279f6722084723625a477d2c7380634c">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>More about Blockchain for XR-AI PMOs</title>
+        <identifierref>g99900efac04bd5be75c316ff40c8eeab</identifierref>
+        <position>16</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g50abf4cd31b5d524de3cd8aab32c2cdf">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>More about Blockchain - articles</title>
+        <identifierref>g03755461b7bb62cd2172532fafca2ee1</identifierref>
+        <position>17</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc85ad34aee7f96fdca00bede684459f7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>More about HCI for XR-AI PMOs</title>
+        <identifierref>ga39986be879b5e4f08ad0bb15e009600</identifierref>
+        <position>18</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd3c9a1f4331218659d7c728e79aee623">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>More about XR Prototyping for XR-AI PMOs</title>
+        <identifierref>gbb2cbd86ee3960ea916d1271684e2cf7</identifierref>
+        <position>19</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g665b457f3db3f6f93ff033a031f30e70">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Useful Links Prototyping - not used yet</title>
+        <identifierref>g1844379c4e02fae8d1ace636e79624d2</identifierref>
+        <position>20</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gab8c679552bdf7eb989f72b6220e0f93">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Working as an XR-AI Product Manager at the intersection of new technologies</title>
+        <identifierref>ga4466bb59fde2583d7d28f9f1bd13935</identifierref>
+        <position>21</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3f6cbd3d68e8004eac8079cf004ce365">
+        <content_type>Quizzes::Quiz</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Quiz: Test your understanding of the role of XR-AI Product Manager</title>
+        <identifierref>g14e75dbfd195efe1eaa184688ac7c428</identifierref>
+        <position>22</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd99acf754cc51d1c357fa70b028af4ea">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Useful Links Guide to be XR Product Manager- not used yet </title>
+        <identifierref>g6ce3b6973094f4057663eed63cafb5d0</identifierref>
+        <position>23</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g19fbb3edd9010d128d1a0ab85874011a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>XR-AI Product Manager / Product Owner HCI Tools</title>
+        <identifierref>gd89e6f95a28bb85b7ea87a2210127bce</identifierref>
+        <position>24</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb6678f64e48be9db011e41267dea2db8">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment 1A: Write a short Essay about Your Role as Product Manager in Emerging Technologies</title>
+        <identifierref>gf84993046cfb1af0079b498b77e9afcb</identifierref>
+        <position>25</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gc3d7031399057f098e610bd51fc1685f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>In-Depth Readings on the Intersection of AI, XR, Blockchain, and HCI</title>
+        <identifierref>gf86a7cc33a96e55e3bc0e636c8a6e6e3</identifierref>
+        <position>26</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3039d01bd327f98fe8a0d06fe1a511e3">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>Useful Links - not used yet Copy 2</title>
+        <identifierref>g47b46f3e546692892aebb1ffe26d989b</identifierref>
+        <position>27</position>
+        <new_tab>false</new_tab>
+        <indent>2</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3a8a64765706be52ef5667bf465c83da">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Case studies and examples of successful products integrating these technologies</title>
+        <identifierref>g09461a2117e0e6dc7bcc8bdaae660ee6</identifierref>
+        <position>28</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g06e3a0876a35f9d9558d70525aafa098">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment 1B: Research and Analyze a Product that Integrates Emerging Technologies</title>
+        <identifierref>gee067cce267ed718781d9ff7a2f0bb9e</identifierref>
+        <position>29</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8b2192632b32442800d756af8dfcc0ce">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment 1C: Use Two Product Managers Tools to Create Your Own XR-AI Product Proposal</title>
+        <identifierref>gd04247fc674e90ee0fce50e0407eacb9</identifierref>
+        <position>30</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g5db6a7cd62891d0c2d29a82cc110dec8">
+    <title>Week 2 - Module 2: Agile Lean XR-AI Product Management in the Age of Disruption</title>
+    <workflow_state>active</workflow_state>
+    <position>3</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gc384a88f9c8b34a57a8984e2511cf068">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Introduction to Agile Product Management in the Age of Disruption</title>
+        <identifierref>g255515f4c5fbe331892dcc0a95eea1bc</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g48f31f9d59af9fef275ccb957ed9461a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Agile principles and methodologies for a Product Manager: In-Depth Detail</title>
+        <identifierref>g65495d79765a841f5cc9d873c7a25755</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g627303c3049762dd9a98cc1121cc7f3a">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Integrating Agile Product Development into XR-AI Innovation</title>
+        <identifierref>g22f01fb9e1ffad9771f1554745804bff</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gb8c812c8a858035a14c26de84d871fa4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Hands-on exercises in agile product management</title>
+        <identifierref>gbac6decee21c38cb4d12868432182e5d</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g81e425123f7ffa1748ad1c692c357a4f">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment: Develop a product roadmap integrating AI, XR, Blockchain, or HCI elements in Nine steps</title>
+        <identifierref>gec41871cafa9612da02f70515c52c53f</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="g1d36da733b6ad974c7932eeb57edf2a4">
+    <title>Week 3 - Module 3: Designing User-Centric Experiences with and for XR-AI </title>
+    <workflow_state>active</workflow_state>
+    <position>4</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="g24e9a3824d2e8f0efeea75fa9329dfaa">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Designing User-Centric Experiences with Emerging Technologies</title>
+        <identifierref>gd5191b15f2ce593c3809e32cc8496a98</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g3ad9e224a213394218c657a7fb3be3ad">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Principles of User-Centered Design for 3D XR Solutions</title>
+        <identifierref>g82889ba5d2d8f12fcefeea45579d991f</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd21a9d48168e1a92180ceb8d4a5075b4">
+        <content_type>WikiPage</content_type>
+        <workflow_state>unpublished</workflow_state>
+        <title>3D Design Links not used yet</title>
+        <identifierref>g3baf8cee731e7a7e5b1b17bb8dac880b</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="ge178c9bfce3cbae2e39cf97d24a67280">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Leveraging AI, XR, Blockchain, and HCI for enhanced user experiences</title>
+        <identifierref>g08ab56419ede93408720b3fae57cdba4</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gd1aebc2cbd70d7253b4b5cb0b4a691e2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Prototyping and user testing techniques</title>
+        <identifierref>g6cd541e176082fa1c32b7f5309d4a0ba</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf8df729ba94df545343119c6ed17ffcd">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment: Create a high-fidelity prototype demonstrating user-centric design principles</title>
+        <identifierref>gcdd3bc078a2fa99c935bbe783b4a50e7</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+  <module identifier="ge6a6e04ae3d0381c38315f4efa431414">
+    <title>Week 4 - Module 4: Building Your Personalized Professional Brand as XR-AI Product Manager/Product Owner</title>
+    <workflow_state>active</workflow_state>
+    <position>5</position>
+    <require_sequential_progress>false</require_sequential_progress>
+    <locked>false</locked>
+    <items>
+      <item identifier="gd4d120a0adfc95d75b37ea9c391f2b29">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Advice on Entering the XR-AI Jobmarket</title>
+        <identifierref>gc397b1a3fabb1a3c0c1994db523d699f</identifierref>
+        <position>1</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="gf45983df9106467811103507f3c051b7">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Example XR-AI Product Manager Job Descriptions</title>
+        <identifierref>gba0979a5e83b6f251cccda30641132b6</identifierref>
+        <position>2</position>
+        <new_tab>false</new_tab>
+        <indent>1</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g065449c0b139be21abf6130eb9bb15d2">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Crafting a compelling CV and portfolio</title>
+        <identifierref>g2afcf059f3811023b0ec3b3b294d2938</identifierref>
+        <position>3</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g8a984ee8a47f8dcfb70e8d6e73caf285">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Personal branding strategies for job seekers</title>
+        <identifierref>g5cd335f6c1321581a9de885199b3a442</identifierref>
+        <position>4</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g9bbaaf059a4f4067a0d55b733cabd227">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Networking and Job Search Techniques</title>
+        <identifierref>g7023d37f13f4d07393b4b8f90850bf96</identifierref>
+        <position>5</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+      <item identifier="g5d4c544022b2f8ed3dd648e0dd87b71e">
+        <content_type>WikiPage</content_type>
+        <workflow_state>active</workflow_state>
+        <title>Assignment: Develop a personalized professional marketing plan highlighting your skills and expertise as an XR-AI Product Manager / Product Owner</title>
+        <identifierref>g885c1a067ae13aa154e7b7d32f7a6d47</identifierref>
+        <position>6</position>
+        <new_tab>false</new_tab>
+        <indent>0</indent>
+        <link_settings_json>null</link_settings_json>
+      </item>
+    </items>
+  </module>
+</modules>

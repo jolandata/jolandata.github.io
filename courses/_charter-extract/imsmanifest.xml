@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="g533aacc84890db9df30c545a59c03d88" xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p1/ccv1p1_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lomresource_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p1/LOM/ccv1p1_lommanifest_v1p0.xsd">
+  <metadata>
+    <schema>IMS Common Cartridge</schema>
+    <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string>Chief Metaverse Officer in 4 Weeks</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+      <lomimscc:lifeCycle>
+        <lomimscc:contribute>
+          <lomimscc:date>
+            <lomimscc:dateTime>2026-10-03</lomimscc:dateTime>
+          </lomimscc:date>
+        </lomimscc:contribute>
+      </lomimscc:lifeCycle>
+      <lomimscc:rights>
+        <lomimscc:copyrightAndOtherRestrictions>
+          <lomimscc:value>yes</lomimscc:value>
+        </lomimscc:copyrightAndOtherRestrictions>
+        <lomimscc:description>
+          <lomimscc:string>Private (Copyrighted) - http://en.wikipedia.org/wiki/Copyright</lomimscc:string>
+        </lomimscc:description>
+      </lomimscc:rights>
+    </lomimscc:lom>
+  </metadata>
+  <organizations>
+    <organization identifier="org_1" structure="rooted-hierarchy">
+      <item identifier="LearningModules">
+        <item identifier="g93a4da041096bdb78f81e95649cee17f">
+          <title>Course Welcome Information</title>
+          <item identifier="g0aa098a18b529b0244f6588ad305a66c" identifierref="g399b14515b688a1629d99f60239fd2e4">
+            <title>Chief Metaverse Officer Course Overview</title>
+          </item>
+          <item identifier="g9770c817b3c45c052b741ab3c1299a00" identifierref="g201371f561c68b3763e6039b3dd35d24">
+            <title>Introduction to your course leader</title>
+          </item>
+          <item identifier="gb7615648ee5777af87c4292ffbefc08d" identifierref="g339c07ebeddf8643ff981cc7c1a1bd4f">
+            <title>Business Model Canvas (BMC) as a Framework</title>
+          </item>
+          <item identifier="g16d2ad0eff1b258993f4ef25513165a7" identifierref="g0a439767aaca3fe59932240e5d9d0cd4">
+            <title>Moodboard Template</title>
+          </item>
+          <item identifier="gc3167e98d43bc5a82684fe1fdebc923c" identifierref="gc6e4293dcf57faa970c2538bd0a8afb9">
+            <title>Pitchdeck Template and Example</title>
+          </item>
+          <item identifier="gb0a1da71cc021f646185067d7632e5a5" identifierref="gd389e3296845318b37779faf7f4dd5fc">
+            <title>Plethora of Prototyping Tools</title>
+          </item>
+        </item>
+        <item identifier="g71f57ae3c68c6170607b83ce3869dac8">
+          <title>Week 1 - Module 1: Introduction to XR-AI in Product Management</title>
+          <item identifier="g7c2a654d0a25d14e08300a986e71575b" identifierref="g46578f186f92120a78e372e136963ab4">
+            <title>Introduction to the Role of XR-AI Product Manager</title>
+          </item>
+          <item identifier="g1164a327d465f59a87514867054b7ce2" identifierref="g6234480667724a0b9cf80dd40d5679fb">
+            <title>Introduction to Spatial Computing</title>
+          </item>
+          <item identifier="gd947bc7cc8589e6588a2bd4aecb8b233" identifierref="gbeb52a0ca02ec5c2cfa530ac7d43f63f">
+            <title>Introduction to Digital Twins and Smart Environments</title>
+          </item>
+          <item identifier="g10f0c6bcd0e83e638381e72422b71352" identifierref="gdb46790f7da916caf4088c64c97a5e8c">
+            <title>Entering the XR-AI Job Market as a Product Manager</title>
+          </item>
+          <item identifier="g160a3ff2a59287c2b5a2992e7c66ba9b" identifierref="g9888c6c55d2aab5238d30dc2fc593bde">
+            <title>Transferable Skills for XR-AI Product Management</title>
+          </item>
+          <item identifier="gfc1b7f1c9e91a93640ca1820b67c0492" identifierref="gc42c06b7c243886f543e56b9f7ad8edb">
+            <title>Project Manager vs. Product Manager vs. Product Owner</title>
+          </item>
+          <item identifier="g396f259cb9215f2059311f78fd68ab61" identifierref="g5638a2301b31305c9aa859990b86c097">
+            <title>General Product Manager vs. Technical Product Manager</title>
+          </item>
+          <item identifier="g3882a373b0adc341ab7300e8f82ad589" identifierref="g1352d03ac59f553396246fec97d523eb">
+            <title>XR-AI Expert as Technical Product Manager</title>
+          </item>
+          <item identifier="g332dfcfb5d412280a7d9ec77f1072259" identifierref="g28b9e0db31eea68dbc19add09a228883">
+            <title>Introduction to the Convergence of AI, XR, Blockchain, and HCI Design and Evaluation</title>
+          </item>
+          <item identifier="gd17d5cf41c8b772e5c07a9ed2d7f0103" identifierref="g0e016bef973d07d35ac270ab5c668625">
+            <title>Useful Links - not used yet</title>
+          </item>
+          <item identifier="g0d62e40db70bdf2f74fd320fded4f9b9" identifierref="g561fc79352ebfae325e2ed59abde0b93">
+            <title>Quiz: Introduction to the Convergence of AI, XR, Blockchain, and HCI</title>
+          </item>
+          <item identifier="g574ed72923f4d977f8dd0289715ed7e7" identifierref="ga6eb15c21d982e90f8351ca3e8d8ce49">
+            <title>Standing Up on the Intersection of AI, XR, Blockchain, and HCI Technologies</title>
+          </item>
+          <item identifier="g07b771e839637d9ef8bb03c0d4643f11" identifierref="g8d70d6030e3aa88c30fae5013832fd62">
+            <title>Quiz: On the Intersection of AI, XR, Blockchain, and HCI</title>
+          </item>
+          <item identifier="g55cb55c07f4fe5fddce638c75ea88968" identifierref="g75ad10953ef5e256bcd991f342cb19ab">
+            <title>More about AI for XR-AI PMOs</title>
+          </item>
+          <item identifier="gaaabe911e8a3f3d21769413e41cb307d" identifierref="g44785a70e6d8d52b6523ce4c68a1781e">
+            <title>More about XR for XR-AI PMOs</title>
+          </item>
+          <item identifier="g279f6722084723625a477d2c7380634c" identifierref="g99900efac04bd5be75c316ff40c8eeab">
+            <title>More about Blockchain for XR-AI PMOs</title>
+          </item>
+          <item identifier="g50abf4cd31b5d524de3cd8aab32c2cdf" identifierref="g03755461b7bb62cd2172532fafca2ee1">
+            <title>More about Blockchain - articles</title>
+          </item>
+          <item identifier="gc85ad34aee7f96fdca00bede684459f7" identifierref="ga39986be879b5e4f08ad0bb15e009600">
+            <title>More about HCI for XR-AI PMOs</title>
+          </item>
+          <item identifier="gd3c9a1f4331218659d7c728e79aee623" identifierref="gbb2cbd86ee3960ea916d1271684e2cf7">
+            <title>More about XR Prototyping for XR-AI PMOs</title>
+          </item>
+          <item identifier="g665b457f3db3f6f93ff033a031f30e70" identifierref="g1844379c4e02fae8d1ace636e79624d2">
+            <title>Useful Links Prototyping - not used yet</title>
+          </item>
+          <item identifier="gab8c679552bdf7eb989f72b6220e0f93" identifierref="ga4466bb59fde2583d7d28f9f1bd13935">
+            <title>Working as an XR-AI Product Manager at the intersection of new technologies</title>
+          </item>
+          <item identifier="g3f6cbd3d68e8004eac8079cf004ce365" identifierref="g14e75dbfd195efe1eaa184688ac7c428">
+            <title>Quiz: Test your understanding of the role of XR-AI Product Manager</title>
+          </item>
+          <item identifier="gd99acf754cc51d1c357fa70b028af4ea" identifierref="g6ce3b6973094f4057663eed63cafb5d0">
+            <title>Useful Links Guide to be XR Product Manager- not used yet </title>
+          </item>
+          <item identifier="g19fbb3edd9010d128d1a0ab85874011a" identifierref="gd89e6f95a28bb85b7ea87a2210127bce">
+            <title>XR-AI Product Manager / Product Owner HCI Tools</title>
+          </item>
+          <item identifier="gb6678f64e48be9db011e41267dea2db8" identifierref="gf84993046cfb1af0079b498b77e9afcb">
+            <title>Assignment 1A: Write a short Essay about Your Role as Product Manager in Emerging Technologies</title>
+          </item>
+          <item identifier="gc3d7031399057f098e610bd51fc1685f" identifierref="gf86a7cc33a96e55e3bc0e636c8a6e6e3">
+            <title>In-Depth Readings on the Intersection of AI, XR, Blockchain, and HCI</title>
+          </item>
+          <item identifier="g3039d01bd327f98fe8a0d06fe1a511e3" identifierref="g47b46f3e546692892aebb1ffe26d989b">
+            <title>Useful Links - not used yet Copy 2</title>
+          </item>
+          <item identifier="g3a8a64765706be52ef5667bf465c83da" identifierref="g09461a2117e0e6dc7bcc8bdaae660ee6">
+            <title>Case studies and examples of successful products integrating these technologies</title>
+          </item>
+          <item identifier="g06e3a0876a35f9d9558d70525aafa098" identifierref="gee067cce267ed718781d9ff7a2f0bb9e">
+            <title>Assignment 1B: Research and Analyze a Product that Integrates Emerging Technologies</title>
+          </item>
+          <item identifier="g8b2192632b32442800d756af8dfcc0ce" identifierref="gd04247fc674e90ee0fce50e0407eacb9">
+            <title>Assignment 1C: Use Two Product Managers Tools to Create Your Own XR-AI Product Proposal</title>
+          </item>
+        </item>
+        <item identifier="g5db6a7cd62891d0c2d29a82cc110dec8">
+          <title>Week 2 - Module 2: Agile Lean XR-AI Product Management in the Age of Disruption</title>
+          <item identifier="gc384a88f9c8b34a57a8984e2511cf068" identifierref="g255515f4c5fbe331892dcc0a95eea1bc">
+            <title>Introduction to Agile Product Management in the Age of Disruption</title>
+          </item>
+          <item identifier="g48f31f9d59af9fef275ccb957ed9461a" identifierref="g65495d79765a841f5cc9d873c7a25755">
+            <title>Agile principles and methodologies for a Product Manager: In-Depth Detail</title>
+          </item>
+          <item identifier="g627303c3049762dd9a98cc1121cc7f3a" identifierref="g22f01fb9e1ffad9771f1554745804bff">
+            <title>Integrating Agile Product Development into XR-AI Innovation</title>
+          </item>
+          <item identifier="gb8c812c8a858035a14c26de84d871fa4" identifierref="gbac6decee21c38cb4d12868432182e5d">
+            <title>Hands-on exercises in agile product management</title>
+          </item>
+          <item identifier="g81e425123f7ffa1748ad1c692c357a4f" identifierref="gec41871cafa9612da02f70515c52c53f">
+            <title>Assignment: Develop a product roadmap integrating AI, XR, Blockchain, or HCI elements in Nine steps</title>
+          </item>
+        </item>
+        <item identifier="g1d36da733b6ad974c7932eeb57edf2a4">
+          <title>Week 3 - Module 3: Designing User-Centric Experiences with and for XR-AI </title>
+          <item identifier="g24e9a3824d2e8f0efeea75fa9329dfaa" identifierref="gd5191b15f2ce593c3809e32cc8496a98">
+            <title>Designing User-Centric Experiences with Emerging Technologies</title>
+          </item>
+          <item identifier="g3ad9e224a213394218c657a7fb3be3ad" identifierref="g82889ba5d2d8f12fcefeea45579d991f">
+            <title>Principles of User-Centered Design for 3D XR Solutions</title>
+          </item>
+          <item identifier="gd21a9d48168e1a92180ceb8d4a5075b4" identifierref="g3baf8cee731e7a7e5b1b17bb8dac880b">
+            <title>3D Design Links not used yet</title>
+          </item>
+          <item identifier="ge178c9bfce3cbae2e39cf97d24a67280" identifierref="g08ab56419ede93408720b3fae57cdba4">
+            <title>Leveraging AI, XR, Blockchain, and HCI for enhanced user experiences</title>
+          </item>
+          <item identifier="gd1aebc2cbd70d7253b4b5cb0b4a691e2" identifierref="g6cd541e176082fa1c32b7f5309d4a0ba">
+            <title>Prototyping and user testing techniques</title>
+          </item>
+          <item identifier="gf8df729ba94df545343119c6ed17ffcd" identifierref="gcdd3bc078a2fa99c935bbe783b4a50e7">
+            <title>Assignment: Create a high-fidelity prototype demonstrating user-centric design principles</title>
+          </item>
+        </item>
+        <item identifier="ge6a6e04ae3d0381c38315f4efa431414">
+          <title>Week 4 - Module 4: Building Your Personalized Professional Brand as XR-AI Product Manager/Product Owner</title>
+          <item identifier="gd4d120a0adfc95d75b37ea9c391f2b29" identifierref="gc397b1a3fabb1a3c0c1994db523d699f">
+            <title>Advice on Entering the XR-AI Jobmarket</title>
+          </item>
+          <item identifier="gf45983df9106467811103507f3c051b7" identifierref="gba0979a5e83b6f251cccda30641132b6">
+            <title>Example XR-AI Product Manager Job Descriptions</title>
+          </item>
+          <item identifier="g065449c0b139be21abf6130eb9bb15d2" identifierref="g2afcf059f3811023b0ec3b3b294d2938">
+            <title>Crafting a compelling CV and portfolio</title>
+          </item>
+          <item identifier="g8a984ee8a47f8dcfb70e8d6e73caf285" identifierref="g5cd335f6c1321581a9de885199b3a442">
+            <title>Personal branding strategies for job seekers</title>
+          </item>
+          <item identifier="g9bbaaf059a4f4067a0d55b733cabd227" identifierref="g7023d37f13f4d07393b4b8f90850bf96">
+            <title>Networking and Job Search Techniques</title>
+          </item>
+          <item identifier="g5d4c544022b2f8ed3dd648e0dd87b71e" identifierref="g885c1a067ae13aa154e7b7d32f7a6d47">
+            <title>Assignment: Develop a personalized professional marketing plan highlighting your skills and expertise as an XR-AI Product Manager / Product Owner</title>
+          </item>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="gc5d19f8b30411a91f6e68881382b62c5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="course_settings/canvas_export.txt">
+      <file href="course_settings/course_settings.xml"/>
+      <file href="course_settings/module_meta.xml"/>
+      <file href="course_settings/assignment_groups.xml"/>
+      <file href="course_settings/files_meta.xml"/>
+      <file href="course_settings/late_policy.xml"/>
+      <file href="course_settings/context.xml"/>
+      <file href="course_settings/media_tracks.xml"/>
+      <file href="course_settings/canvas_export.txt"/>
+    </resource>
+    <resource identifier="g339c07ebeddf8643ff981cc7c1a1bd4f" type="webcontent" href="wiki_content/business-model-canvas-bmc-as-a-framework.html">
+      <file href="wiki_content/business-model-canvas-bmc-as-a-framework.html"/>
+    </resource>
+    <resource identifier="g75ad10953ef5e256bcd991f342cb19ab" type="webcontent" href="wiki_content/more-about-ai-for-xr-ai-pmos.html">
+      <file href="wiki_content/more-about-ai-for-xr-ai-pmos.html"/>
+    </resource>
+    <resource identifier="g99900efac04bd5be75c316ff40c8eeab" type="webcontent" href="wiki_content/more-about-blockchain-for-xr-ai-pmos.html">
+      <file href="wiki_content/more-about-blockchain-for-xr-ai-pmos.html"/>
+    </resource>
+    <resource identifier="ga39986be879b5e4f08ad0bb15e009600" type="webcontent" href="wiki_content/more-about-hci-for-xr-ai-pmos.html">
+      <file href="wiki_content/more-about-hci-for-xr-ai-pmos.html"/>
+    </resource>
+    <resource identifier="g82889ba5d2d8f12fcefeea45579d991f" type="webcontent" href="wiki_content/principles-of-user-centered-design-for-3d-xr-solutions.html">
+      <file href="wiki_content/principles-of-user-centered-design-for-3d-xr-solutions.html"/>
+    </resource>
+    <resource identifier="g7023d37f13f4d07393b4b8f90850bf96" type="webcontent" href="wiki_content/networking-and-job-search-techniques.html">
+      <file href="wiki_content/networking-and-job-search-techniques.html"/>
+    </resource>
+    <resource identifier="gd04247fc674e90ee0fce50e0407eacb9" type="webcontent" href="wiki_content/assignment-1c-use-two-product-managers-tools-to-create-your-own-xr-ai-product-proposal.html">
+      <file href="wiki_content/assignment-1c-use-two-product-managers-tools-to-create-your-own-xr-ai-product-proposal.html"/>
+    </resource>
+    <resource identifier="g6cd541e176082fa1c32b7f5309d4a0ba" type="webcontent" href="wiki_content/prototyping-and-user-testing-techniques.html">
+      <file href="wiki_content/prototyping-and-user-testing-techniques.html"/>
+    </resource>
+    <resource identifier="gbac6decee21c38cb4d12868432182e5d" type="webcontent" href="wiki_content/hands-on-exercises-in-agile-product-management.html">
+      <file href="wiki_content/hands-on-exercises-in-agile-product-management.html"/>
+    </resource>
+    <resource identifier="g22f01fb9e1ffad9771f1554745804bff" type="webcontent" href="wiki_content/integrating-agile-product-development-into-xr-ai-innovation.html">
+      <file href="wiki_content/integrating-agile-product-development-into-xr-ai-innovation.html"/>
+    </resource>
+    <resource identifier="gd5191b15f2ce593c3809e32cc8496a98" type="webcontent" href="wiki_content/designing-user-centric-experiences-with-emerging-technologies.html">
+      <file href="wiki_content/designing-user-centric-experiences-with-emerging-technologies.html"/>
+    </resource>
+    <resource identifier="gee067cce267ed718781d9ff7a2f0bb9e" type="webcontent" href="wiki_content/assignment-1b-research-and-analyze-a-product-that-integrates-emerging-technologies.html">
+      <file href="wiki_content/assignment-1b-research-and-analyze-a-product-that-integrates-emerging-technologies.html"/>
+    </resource>
+    <resource identifier="g44785a70e6d8d52b6523ce4c68a1781e" type="webcontent" href="wiki_content/more-about-xr-for-xr-ai-pmos.html">
+      <file href="wiki_content/more-about-xr-for-xr-ai-pmos.html"/>
+    </resource>
+    <resource identifier="g885c1a067ae13aa154e7b7d32f7a6d47" type="webcontent" href="wiki_content/assignment-develop-a-personalized-professional-marketing-plan-highlighting-your-skills-and-expertise-as-an-xr-ai-product-manager-slash-product-owner.html">
+      <file href="wiki_content/assignment-develop-a-personalized-professional-marketing-plan-highlighting-your-skills-and-expertise-as-an-xr-ai-product-manager-slash-product-owner.html"/>
+    </resource>
+    <resource identifier="g0a439767aaca3fe59932240e5d9d0cd4" type="webcontent" href="wiki_content/moodboard-template.html">
+      <file href="wiki_content/moodboard-template.html"/>
+    </resource>
+    <resource identifier="g6234480667724a0b9cf80dd40d5679fb" type="webcontent" href="wiki_content/introduction-to-spatial-computing.html">
+      <file href="wiki_content/introduction-to-spatial-computing.html"/>
+    </resource>
+    <resource identifier="g9888c6c55d2aab5238d30dc2fc593bde" type="webcontent" href="wiki_content/transferable-skills-for-xr-ai-product-management.html">
+      <file href="wiki_content/transferable-skills-for-xr-ai-product-management.html"/>
+    </resource>
+    <resource identifier="g09461a2117e0e6dc7bcc8bdaae660ee6" type="webcontent" href="wiki_content/case-studies-and-examples-of-successful-products-integrating-these-technologies.html">
+      <file href="wiki_content/case-studies-and-examples-of-successful-products-integrating-these-technologies.html"/>
+    </resource>
+    <resource identifier="gf86a7cc33a96e55e3bc0e636c8a6e6e3" type="webcontent" href="wiki_content/in-depth-readings-on-the-intersection-of-ai-xr-blockchain-and-hci.html">
+      <file href="wiki_content/in-depth-readings-on-the-intersection-of-ai-xr-blockchain-and-hci.html"/>
+    </resource>
+    <resource identifier="gc6e4293dcf57faa970c2538bd0a8afb9" type="webcontent" href="wiki_content/pitchdeck-template-and-example.html">
+      <file href="wiki_content/pitchdeck-template-and-example.html"/>
+    </resource>
+    <resource identifier="g399b14515b688a1629d99f60239fd2e4" type="webcontent" href="wiki_content/chief-metaverse-officer-course-overview.html">
+      <file href="wiki_content/chief-metaverse-officer-course-overview.html"/>
+    </resource>
+    <resource identifier="g28b9e0db31eea68dbc19add09a228883" type="webcontent" href="wiki_content/introduction-to-the-convergence-of-ai-xr-blockchain-and-hci-design-and-evaluation.html">
+      <file href="wiki_content/introduction-to-the-convergence-of-ai-xr-blockchain-and-hci-design-and-evaluation.html"/>
+    </resource>
+    <resource identifier="g255515f4c5fbe331892dcc0a95eea1bc" type="webcontent" href="wiki_content/introduction-to-agile-product-management-in-the-age-of-disruption.html">
+      <file href="wiki_content/introduction-to-agile-product-management-in-the-age-of-disruption.html"/>
+    </resource>
+    <resource identifier="gbb2cbd86ee3960ea916d1271684e2cf7" type="webcontent" href="wiki_content/more-about-xr-prototyping-for-xr-ai-pmos.html">
+      <file href="wiki_content/more-about-xr-prototyping-for-xr-ai-pmos.html"/>
+    </resource>
+    <resource identifier="g08ab56419ede93408720b3fae57cdba4" type="webcontent" href="wiki_content/leveraging-ai-xr-blockchain-and-hci-for-enhanced-user-experiences.html">
+      <file href="wiki_content/leveraging-ai-xr-blockchain-and-hci-for-enhanced-user-experiences.html"/>
+    </resource>
+    <resource identifier="gbeb52a0ca02ec5c2cfa530ac7d43f63f" type="webcontent" href="wiki_content/introduction-to-digital-twins-and-smart-environments.html">
+      <file href="wiki_content/introduction-to-digital-twins-and-smart-environments.html"/>
+    </resource>
+    <resource identifier="g5cd335f6c1321581a9de885199b3a442" type="webcontent" href="wiki_content/personal-branding-strategies-for-job-seekers.html">
+      <file href="wiki_content/personal-branding-strategies-for-job-seekers.html"/>
+    </resource>
+    <resource identifier="g47b46f3e546692892aebb1ffe26d989b" type="webcontent" href="wiki_content/useful-links-not-used-yet-copy-2.html">
+      <file href="wiki_content/useful-links-not-used-yet-copy-2.html"/>
+    </resource>
+    <resource identifier="g1352d03ac59f553396246fec97d523eb" type="webcontent" href="wiki_content/xr-ai-expert-as-technical-product-manager.html">
+      <file href="wiki_content/xr-ai-expert-as-technical-product-manager.html"/>
+    </resource>
+    <resource identifier="ga4466bb59fde2583d7d28f9f1bd13935" type="webcontent" href="wiki_content/working-as-an-xr-ai-product-manager-at-the-intersection-of-new-technologies.html">
+      <file href="wiki_content/working-as-an-xr-ai-product-manager-at-the-intersection-of-new-technologies.html"/>
+    </resource>
+    <resource identifier="gd89e6f95a28bb85b7ea87a2210127bce" type="webcontent" href="wiki_content/xr-ai-product-manager-slash-product-owner-hci-tools.html">
+      <file href="wiki_content/xr-ai-product-manager-slash-product-owner-hci-tools.html"/>
+    </resource>
+    <resource identifier="gc397b1a3fabb1a3c0c1994db523d699f" type="webcontent" href="wiki_content/advice-on-entering-the-xr-ai-jobmarket.html">
+      <file href="wiki_content/advice-on-entering-the-xr-ai-jobmarket.html"/>
+    </resource>
+    <resource identifier="g2afcf059f3811023b0ec3b3b294d2938" type="webcontent" href="wiki_content/crafting-a-compelling-cv-and-portfolio.html">
+      <file href="wiki_content/crafting-a-compelling-cv-and-portfolio.html"/>
+    </resource>
+    <resource identifier="g46578f186f92120a78e372e136963ab4" type="webcontent" href="wiki_content/introduction-to-the-role-of-xr-ai-product-manager.html">
+      <file href="wiki_content/introduction-to-the-role-of-xr-ai-product-manager.html"/>
+    </resource>
+    <resource identifier="gdb46790f7da916caf4088c64c97a5e8c" type="webcontent" href="wiki_content/entering-the-xr-ai-job-market-as-a-product-manager.html">
+      <file href="wiki_content/entering-the-xr-ai-job-market-as-a-product-manager.html"/>
+    </resource>
+    <resource identifier="gc42c06b7c243886f543e56b9f7ad8edb" type="webcontent" href="wiki_content/project-manager-vs-product-manager-vs-product-owner.html">
+      <file href="wiki_content/project-manager-vs-product-manager-vs-product-owner.html"/>
+    </resource>
+    <resource identifier="g5638a2301b31305c9aa859990b86c097" type="webcontent" href="wiki_content/general-product-manager-vs-technical-product-manager.html">
+      <file href="wiki_content/general-product-manager-vs-technical-product-manager.html"/>
+    </resource>
+    <resource identifier="ga6eb15c21d982e90f8351ca3e8d8ce49" type="webcontent" href="wiki_content/standing-up-on-the-intersection-of-ai-xr-blockchain-and-hci-technologies.html">
+      <file href="wiki_content/standing-up-on-the-intersection-of-ai-xr-blockchain-and-hci-technologies.html"/>
+    </resource>
+    <resource identifier="gf84993046cfb1af0079b498b77e9afcb" type="webcontent" href="wiki_content/assignment-1a-write-a-short-essay-about-your-role-as-product-manager-in-emerging-technologies.html">
+      <file href="wiki_content/assignment-1a-write-a-short-essay-about-your-role-as-product-manager-in-emerging-technologies.html"/>
+    </resource>
+    <resource identifier="gec41871cafa9612da02f70515c52c53f" type="webcontent" href="wiki_content/assignment-develop-a-product-roadmap-integrating-ai-xr-blockchain-or-hci-elements-in-nine-steps.html">
+      <file href="wiki_content/assignment-develop-a-product-roadmap-integrating-ai-xr-blockchain-or-hci-elements-in-nine-steps.html"/>
+    </resource>
+    <resource identifier="g0e016bef973d07d35ac270ab5c668625" type="webcontent" href="wiki_content/useful-links-not-used-yet.html">
+      <file href="wiki_content/useful-links-not-used-yet.html"/>
+    </resource>
+    <resource identifier="g3baf8cee731e7a7e5b1b17bb8dac880b" type="webcontent" href="wiki_content/3d-design-links-not-used-yet.html">
+      <file href="wiki_content/3d-design-links-not-used-yet.html"/>
+    </resource>
+    <resource identifier="gcdd3bc078a2fa99c935bbe783b4a50e7" type="webcontent" href="wiki_content/assignment-create-a-high-fidelity-prototype-demonstrating-user-centric-design-principles.html">
+      <file href="wiki_content/assignment-create-a-high-fidelity-prototype-demonstrating-user-centric-design-principles.html"/>
+    </resource>
+    <resource identifier="gba0979a5e83b6f251cccda30641132b6" type="webcontent" href="wiki_content/example-xr-ai-product-manager-job-descriptions.html">
+      <file href="wiki_content/example-xr-ai-product-manager-job-descriptions.html"/>
+    </resource>
+    <resource identifier="g03755461b7bb62cd2172532fafca2ee1" type="webcontent" href="wiki_content/more-about-blockchain-articles.html">
+      <file href="wiki_content/more-about-blockchain-articles.html"/>
+    </resource>
+    <resource identifier="g1844379c4e02fae8d1ace636e79624d2" type="webcontent" href="wiki_content/useful-links-prototyping-not-used-yet.html">
+      <file href="wiki_content/useful-links-prototyping-not-used-yet.html"/>
+    </resource>
+    <resource identifier="g65495d79765a841f5cc9d873c7a25755" type="webcontent" href="wiki_content/agile-principles-and-methodologies-for-a-product-manager-in-depth-detail.html">
+      <file href="wiki_content/agile-principles-and-methodologies-for-a-product-manager-in-depth-detail.html"/>
+    </resource>
+    <resource identifier="g6ce3b6973094f4057663eed63cafb5d0" type="webcontent" href="wiki_content/useful-links-guide-to-be-xr-product-manager-not-used-yet.html">
+      <file href="wiki_content/useful-links-guide-to-be-xr-product-manager-not-used-yet.html"/>
+    </resource>
+    <resource identifier="gd389e3296845318b37779faf7f4dd5fc" type="webcontent" href="wiki_content/plethora-of-prototyping-tools.html">
+      <file href="wiki_content/plethora-of-prototyping-tools.html"/>
+    </resource>
+    <resource identifier="g201371f561c68b3763e6039b3dd35d24" type="webcontent" href="wiki_content/introduction-to-your-course-leader.html">
+      <file href="wiki_content/introduction-to-your-course-leader.html"/>
+    </resource>
+    <resource identifier="ge3cef1426b55d9995497db8286ab6ef3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ge3cef1426b55d9995497db8286ab6ef3/assignment-1a-write-a-short-essay-about-your-role-as-product-manager-in-emerging-technologies.html">
+      <file href="ge3cef1426b55d9995497db8286ab6ef3/assignment-1a-write-a-short-essay-about-your-role-as-product-manager-in-emerging-technologies.html"/>
+      <file href="ge3cef1426b55d9995497db8286ab6ef3/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g162e6a25318902b14796f339a863d105" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g162e6a25318902b14796f339a863d105/assignment-1b-research-and-analyze-a-product-that-integrates-emerging-technologies-and-propose-your-own-product-idea.html">
+      <file href="g162e6a25318902b14796f339a863d105/assignment-1b-research-and-analyze-a-product-that-integrates-emerging-technologies-and-propose-your-own-product-idea.html"/>
+      <file href="g162e6a25318902b14796f339a863d105/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ga2b8a2c35f785a5e53adff6199d8ac6f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ga2b8a2c35f785a5e53adff6199d8ac6f/assignment-1c-use-two-product-managers-tools-to-create-your-own-xr-ai-product-proposal.html">
+      <file href="ga2b8a2c35f785a5e53adff6199d8ac6f/assignment-1c-use-two-product-managers-tools-to-create-your-own-xr-ai-product-proposal.html"/>
+      <file href="ga2b8a2c35f785a5e53adff6199d8ac6f/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gf846901bc6d8b3afe3f78c0fa9636595" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf846901bc6d8b3afe3f78c0fa9636595/assignment-2a-a-product-vision-statement-and-a-visual-roadmap.html">
+      <file href="gf846901bc6d8b3afe3f78c0fa9636595/assignment-2a-a-product-vision-statement-and-a-visual-roadmap.html"/>
+      <file href="gf846901bc6d8b3afe3f78c0fa9636595/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gf501910085a956f1e1cb1d9b077f7944" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gf501910085a956f1e1cb1d9b077f7944/assignment-2b-deliverable-a-stakeholder-map-visual-and-a-communication-plan-text.html">
+      <file href="gf501910085a956f1e1cb1d9b077f7944/assignment-2b-deliverable-a-stakeholder-map-visual-and-a-communication-plan-text.html"/>
+      <file href="gf501910085a956f1e1cb1d9b077f7944/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="geeee4ac772eca2b9658370eacbe6d912" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="geeee4ac772eca2b9658370eacbe6d912/assignment-2c-a-prioritized-product-backlog-with-10-user-stories-visual-and-text.html">
+      <file href="geeee4ac772eca2b9658370eacbe6d912/assignment-2c-a-prioritized-product-backlog-with-10-user-stories-visual-and-text.html"/>
+      <file href="geeee4ac772eca2b9658370eacbe6d912/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="gffdb1ed72568689108f0e2e9e165cbad" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="gffdb1ed72568689108f0e2e9e165cbad/assignment-2d-a-sprint-plan-and-task-breakdown-visual-and-text.html">
+      <file href="gffdb1ed72568689108f0e2e9e165cbad/assignment-2d-a-sprint-plan-and-task-breakdown-visual-and-text.html"/>
+      <file href="gffdb1ed72568689108f0e2e9e165cbad/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g58c55cb1a458478c8ba96a9df3d28fad" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g58c55cb1a458478c8ba96a9df3d28fad/assignment-2e-a-prototype-visual-and-a-usability-test-plan-with-feedback-text.html">
+      <file href="g58c55cb1a458478c8ba96a9df3d28fad/assignment-2e-a-prototype-visual-and-a-usability-test-plan-with-feedback-text.html"/>
+      <file href="g58c55cb1a458478c8ba96a9df3d28fad/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="ga4d308816d6e1f8846b73bb0b1d9be2d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ga4d308816d6e1f8846b73bb0b1d9be2d/assignment-2f-an-updated-design-visual-and-a-summary-of-changes-text.html">
+      <file href="ga4d308816d6e1f8846b73bb0b1d9be2d/assignment-2f-an-updated-design-visual-and-a-summary-of-changes-text.html"/>
+      <file href="ga4d308816d6e1f8846b73bb0b1d9be2d/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g2ffb6acaded1c17abb4927238f36f382" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g2ffb6acaded1c17abb4927238f36f382/assignment-2g-a-kpi-dashboard-visual-and-data-analysis-text.html">
+      <file href="g2ffb6acaded1c17abb4927238f36f382/assignment-2g-a-kpi-dashboard-visual-and-data-analysis-text.html"/>
+      <file href="g2ffb6acaded1c17abb4927238f36f382/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g33c17136f70079f7332d9de3adfbc97b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g33c17136f70079f7332d9de3adfbc97b/assignment-2h-a-retrospective-report-text-and-an-improvement-plan-visual.html">
+      <file href="g33c17136f70079f7332d9de3adfbc97b/assignment-2h-a-retrospective-report-text-and-an-improvement-plan-visual.html"/>
+      <file href="g33c17136f70079f7332d9de3adfbc97b/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g60921b1a41dd4ad6f78303e27e5959ba" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g60921b1a41dd4ad6f78303e27e5959ba/assignment-2i-a-collaboration-plan-text-and-workflow-visual.html">
+      <file href="g60921b1a41dd4ad6f78303e27e5959ba/assignment-2i-a-collaboration-plan-text-and-workflow-visual.html"/>
+      <file href="g60921b1a41dd4ad6f78303e27e5959ba/assignment_settings.xml"/>
+    </resource>
+    <resource identifier="g561fc79352ebfae325e2ed59abde0b93" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g561fc79352ebfae325e2ed59abde0b93/assessment_qti.xml"/>
+      <dependency identifierref="ge7f55c87bfc67497bc933d45a11f4752"/>
+    </resource>
+    <resource identifier="ge7f55c87bfc67497bc933d45a11f4752" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g561fc79352ebfae325e2ed59abde0b93/assessment_meta.xml">
+      <file href="g561fc79352ebfae325e2ed59abde0b93/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g561fc79352ebfae325e2ed59abde0b93.xml.qti"/>
+    </resource>
+    <resource identifier="g8d70d6030e3aa88c30fae5013832fd62" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g8d70d6030e3aa88c30fae5013832fd62/assessment_qti.xml"/>
+      <dependency identifierref="g029e2de4a809007fde2732bf62e3bd6d"/>
+    </resource>
+    <resource identifier="g029e2de4a809007fde2732bf62e3bd6d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g8d70d6030e3aa88c30fae5013832fd62/assessment_meta.xml">
+      <file href="g8d70d6030e3aa88c30fae5013832fd62/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g8d70d6030e3aa88c30fae5013832fd62.xml.qti"/>
+    </resource>
+    <resource identifier="g14e75dbfd195efe1eaa184688ac7c428" type="imsqti_xmlv1p2/imscc_xmlv1p1/assessment">
+      <file href="g14e75dbfd195efe1eaa184688ac7c428/assessment_qti.xml"/>
+      <dependency identifierref="gfb0a2712c825a6df4319f7b59a3bc64b"/>
+    </resource>
+    <resource identifier="gfb0a2712c825a6df4319f7b59a3bc64b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="g14e75dbfd195efe1eaa184688ac7c428/assessment_meta.xml">
+      <file href="g14e75dbfd195efe1eaa184688ac7c428/assessment_meta.xml"/>
+      <file href="non_cc_assessments/g14e75dbfd195efe1eaa184688ac7c428.xml.qti"/>
+    </resource>
+    <resource identifier="g3c1d23ce5b1d3eb452430074bc65473b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/g3c1d23ce5b1d3eb452430074bc65473b.xml.qti">
+      <file href="non_cc_assessments/g3c1d23ce5b1d3eb452430074bc65473b.xml.qti"/>
+    </resource>
+    <resource identifier="gace079fa36787db05931c711280b3e14" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="non_cc_assessments/gace079fa36787db05931c711280b3e14.xml.qti">
+      <file href="non_cc_assessments/gace079fa36787db05931c711280b3e14.xml.qti"/>
+    </resource>
+    <resource type="webcontent" identifier="gcdccfe91beed467d23f62a575abc5716" href="web_resources/Uploaded Media/Tall-whitebar.jpg">
+      <file href="web_resources/Uploaded Media/Tall-whitebar.jpg"/>
+    </resource>
+    <resource type="webcontent" identifier="g78f62f622a8a051014a90c33cdacb782" href="web_resources/Uploaded Media/IMG_4623.JPG">
+      <file href="web_resources/Uploaded Media/IMG_4623.JPG"/>
+    </resource>
+    <resource type="webcontent" identifier="g7aaa1791930721420b43b822d9dff9a3" href="web_resources/course_image/XR-AI-PMO-illustration.jpg">
+      <file href="web_resources/course_image/XR-AI-PMO-illustration.jpg"/>
+    </resource>
+  </resources>
+</manifest>

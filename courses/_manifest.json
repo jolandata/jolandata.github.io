@@ -1,0 +1,267 @@
+[
+  {
+    "module": "Course Welcome Information",
+    "slug": "welcome",
+    "items": [
+      {
+        "file": "welcome-01.html",
+        "title": "Chief Metaverse Officer Course Overview",
+        "type": "WikiPage"
+      },
+      {
+        "file": "welcome-02.html",
+        "title": "Introduction to your course leader",
+        "type": "WikiPage"
+      },
+      {
+        "file": "welcome-03.html",
+        "title": "Business Model Canvas (BMC) as a Framework",
+        "type": "WikiPage"
+      },
+      {
+        "file": "welcome-04.html",
+        "title": "Moodboard Template",
+        "type": "WikiPage"
+      },
+      {
+        "file": "welcome-05.html",
+        "title": "Pitchdeck Template and Example",
+        "type": "WikiPage"
+      },
+      {
+        "file": "welcome-06.html",
+        "title": "Plethora of Prototyping Tools",
+        "type": "WikiPage"
+      }
+    ]
+  },
+  {
+    "module": "Week 1 - Module 1: Introduction to XR-AI in Product Management",
+    "slug": "week1",
+    "items": [
+      {
+        "file": "week1-01.html",
+        "title": "Introduction to the Role of XR-AI Product Manager",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-02.html",
+        "title": "Introduction to Spatial Computing",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-03.html",
+        "title": "Introduction to Digital Twins and Smart Environments",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-04.html",
+        "title": "Entering the XR-AI Job Market as a Product Manager",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-05.html",
+        "title": "Transferable Skills for XR-AI Product Management",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-06.html",
+        "title": "Project Manager vs. Product Manager vs. Product Owner",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-07.html",
+        "title": "General Product Manager vs. Technical Product Manager",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-08.html",
+        "title": "XR-AI Expert as Technical Product Manager",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-09.html",
+        "title": "Introduction to the Convergence of AI, XR, Blockchain, and HCI Design and Evaluation",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-10.html",
+        "title": "Quiz: Introduction to the Convergence of AI, XR, Blockchain, and HCI",
+        "type": "Quizzes::Quiz"
+      },
+      {
+        "file": "week1-11.html",
+        "title": "Standing Up on the Intersection of AI, XR, Blockchain, and HCI Technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-12.html",
+        "title": "Quiz: On the Intersection of AI, XR, Blockchain, and HCI",
+        "type": "Quizzes::Quiz"
+      },
+      {
+        "file": "week1-13.html",
+        "title": "More about AI for XR-AI PMOs",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-14.html",
+        "title": "More about XR for XR-AI PMOs",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-15.html",
+        "title": "More about Blockchain for XR-AI PMOs",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-16.html",
+        "title": "More about HCI for XR-AI PMOs",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-17.html",
+        "title": "More about XR Prototyping for XR-AI PMOs",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-18.html",
+        "title": "Working as an XR-AI Product Manager at the intersection of new technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-19.html",
+        "title": "Quiz: Test your understanding of the role of XR-AI Product Manager",
+        "type": "Quizzes::Quiz"
+      },
+      {
+        "file": "week1-20.html",
+        "title": "XR-AI Product Manager / Product Owner HCI Tools",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-21.html",
+        "title": "Assignment 1A: Write a short Essay about Your Role as Product Manager in Emerging Technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-22.html",
+        "title": "In-Depth Readings on the Intersection of AI, XR, Blockchain, and HCI",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-23.html",
+        "title": "Case studies and examples of successful products integrating these technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-24.html",
+        "title": "Assignment 1B: Research and Analyze a Product that Integrates Emerging Technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week1-25.html",
+        "title": "Assignment 1C: Use Two Product Managers Tools to Create Your Own XR-AI Product Proposal",
+        "type": "WikiPage"
+      }
+    ]
+  },
+  {
+    "module": "Week 2 - Module 2: Agile Lean XR-AI Product Management in the Age of Disruption",
+    "slug": "week2",
+    "items": [
+      {
+        "file": "week2-01.html",
+        "title": "Introduction to Agile Product Management in the Age of Disruption",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week2-02.html",
+        "title": "Agile principles and methodologies for a Product Manager: In-Depth Detail",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week2-03.html",
+        "title": "Integrating Agile Product Development into XR-AI Innovation",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week2-04.html",
+        "title": "Hands-on exercises in agile product management",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week2-05.html",
+        "title": "Assignment: Develop a product roadmap integrating AI, XR, Blockchain, or HCI elements in Nine steps",
+        "type": "WikiPage"
+      }
+    ]
+  },
+  {
+    "module": "Week 3 - Module 3: Designing User-Centric Experiences with and for XR-AI ",
+    "slug": "week3",
+    "items": [
+      {
+        "file": "week3-01.html",
+        "title": "Designing User-Centric Experiences with Emerging Technologies",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week3-02.html",
+        "title": "Principles of User-Centered Design for 3D XR Solutions",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week3-03.html",
+        "title": "Leveraging AI, XR, Blockchain, and HCI for enhanced user experiences",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week3-04.html",
+        "title": "Prototyping and user testing techniques",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week3-05.html",
+        "title": "Assignment: Create a high-fidelity prototype demonstrating user-centric design principles",
+        "type": "WikiPage"
+      }
+    ]
+  },
+  {
+    "module": "Week 4 - Module 4: Building Your Personalized Professional Brand as XR-AI Product Manager/Product Owner",
+    "slug": "week4",
+    "items": [
+      {
+        "file": "week4-01.html",
+        "title": "Advice on Entering the XR-AI Jobmarket",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week4-02.html",
+        "title": "Example XR-AI Product Manager Job Descriptions",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week4-03.html",
+        "title": "Crafting a compelling CV and portfolio",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week4-04.html",
+        "title": "Personal branding strategies for job seekers",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week4-05.html",
+        "title": "Networking and Job Search Techniques",
+        "type": "WikiPage"
+      },
+      {
+        "file": "week4-06.html",
+        "title": "Assignment: Develop a personalized professional marketing plan highlighting your skills and expertise as an XR-AI Product Manager / Product Owner",
+        "type": "WikiPage"
+      }
+    ]
+  }
+]
