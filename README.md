@@ -11,7 +11,7 @@ Built with raw HTML/CSS/JS. Hosted on GitHub Pages.
 **Current phase:** 🚀 Gate 6 — Test & Launch (Live)
 **Overall status:** Site live at https://jolandata.github.io — shippable
 **Priority:** High
-**Last updated:** 2026-09-21
+**Last updated:** 2026-10-14
 
 ## OBJECTIVE
 
@@ -112,6 +112,14 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 - Publications URL → public `notion.site` link; About bio spells out "State University of New York (SUNY)" (button unchanged).
 - Contact heading → "Book a **Free** Consultation" (Free in pink); nav logo tile given rounded corners (12px).
 - Verified after each change: SVG valid XML, HTML parses, JS lints, CSS braces balanced. Committed + pushed.
+
+### 2026-10-14
+
+- Added **Membership** sign-up page (`membership.html`) — free name+email sign-up via MailerLite, styled to match the site. Live at `https://jolandata.github.io/membership.html`.
+- Added **Membership** link to the site-wide nav (index, GenXR Watch, Publications).
+- Added **course delivery scaffold** (`courses/`): `index.html` course portal with a lightweight access-code gate + module/lesson list, plus `lesson-template.html` and two placeholder lessons (`lesson-1.html`, `lesson-2.html`) with previous/next navigation.
+- Route decision: no LMS, no paid hosting. Course from `.imscc` (IMS Common Cartridge / Blackboard format) will be **remade as static HTML pages** on the free GitHub Pages site. Membership is free (name+email), so the portal gate is a lightweight client-side access code, not true security.
+- TODO: supply course source (`.imscc` or topic outline) to fill the lesson pages with real content; optionally create a dedicated MailerLite membership form/group and swap the embedded form ID on `membership.html`.
 
 ### 2026-10-05
 

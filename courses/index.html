@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dr. Jolanda G. Tromp's free course portal — access the member course modules on XR, AI, and human-centered innovation.">
+<meta name="theme-color" content="#0a0a0f">
+<title>Course Portal | Dr. Jolanda G. Tromp</title>
+<link rel="icon" type="image/svg+xml" href="../imgs/favicon.svg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="../style.css">
+
+<style>
+  .page-hero {
+    padding: clamp(6rem, 14vh, 9rem) 0 2rem;
+    position: relative;
+    text-align: center;
+  }
+  .page-hero__title {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+  }
+  .page-hero__lede {
+    max-width: 640px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+  }
+  /* ─── Gate ─── */
+  .gate {
+    max-width: 560px;
+    margin: var(--space-section) auto 0;
+    padding: 2.5rem 1.5rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    text-align: center;
+  }
+  .gate__lock { font-size: 1.6rem; margin-bottom: 0.5rem; }
+  .gate h2 {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .gate p { color: var(--text-secondary); font-size: var(--fs-small); margin-bottom: 1.25rem; }
+  .gate__form { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+  .gate__input {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    border-radius: 999px;
+    padding: 0.6rem 1.1rem;
+    font-family: var(--ff-body);
+    font-size: var(--fs-small);
+    outline: none;
+    min-width: 220px;
+  }
+  .gate__input:focus { border-color: var(--accent-xr); }
+  .gate__err { color: var(--accent-ai); font-size: var(--fs-small); min-height: 1.2em; margin-top: 0.6rem; }
+  /* ─── Lessons ─── */
+  .lessons { display: none; margin-top: var(--space-section); }
+  .lessons--open { display: block; }
+  .lessons__head { text-align: center; margin-bottom: 2rem; }
+  .lessons__head h2 {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .lessons__head p { color: var(--text-secondary); font-size: var(--fs-small); }
+  .module {
+    margin-bottom: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem;
+  }
+  .module__title {
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--accent-xr);
+  }
+  .lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.8rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .lesson:first-of-type { border-top: none; }
+  .lesson__num { color: var(--text-muted); font-family: var(--ff-display); font-size: var(--fs-small); }
+  .lesson__title { font-weight: 500; }
+  .lesson__link { color: var(--accent-ai); font-size: var(--fs-small); font-weight: 500; }
+  .lesson__link:hover { text-decoration: underline; }
+  .placeholder-note {
+    margin-top: 1rem;
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    background: var(--bg-tertiary);
+    border: 1px dashed var(--border);
+    color: var(--text-secondary);
+    font-size: var(--fs-small);
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ STICKY NAV ═══════════ -->
+<nav class="nav" id="nav" aria-label="Main navigation">
+  <div class="nav__inner">
+    <a href="../index.html#hero" class="nav__logo" aria-label="Home">
+      <img class="nav__logo-img" src="../imgs/logo.png" alt="" width="69" height="69">
+      <span>Dr. Jolanda G. Tromp</span>
+    </a>
+    <button class="nav__hamburger" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="../index.html#services" class="nav__link">Services</a></li>
+      <li><a href="../index.html#about" class="nav__link">About</a></li>
+      <li><a href="../index.html#work" class="nav__link">Work</a></li>
+      <li><a href="../genxr-watch.html" class="nav__link">GenXR Watch</a></li>
+      <li><a href="../publications.html" class="nav__link">Publications</a></li>
+      <li><a href="../membership.html" class="nav__link nav__link--cta">Membership</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════ PAGE HERO ═══════════ -->
+<header class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title">Course Portal</h1>
+    <p class="page-hero__lede">Your member course on XR, AI, and human-centered innovation. Enter your access code to unlock the modules.</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ═══════════ ACCESS GATE ═══════════ -->
+  <section class="gate" id="gate">
+    <div class="gate__lock" aria-hidden="true">🔐</div>
+    <h2>Member access</h2>
+    <p>Enter the access code sent to you when you joined.</p>
+    <form class="gate__form" id="gateForm">
+      <input class="gate__input" type="text" id="gateCode" placeholder="Access code" autocomplete="off" aria-label="Access code">
+      <button class="btn btn--primary" type="submit">Unlock</button>
+    </form>
+    <div class="gate__err" id="gateErr" role="alert"></div>
+  </section>
+
+  <!-- ═══════════ LESSONS (unlocked) ═══════════ -->
+  <section class="lessons" id="lessons">
+    <div class="lessons__head">
+      <h2>Course modules</h2>
+      <p>Work through the modules in order, or jump to any lesson.</p>
+    </div>
+
+    <!-- MODULE 1 (scaffold — content to be supplied) -->
+    <div class="module">
+      <h3 class="module__title">Module 1 · Coming soon</h3>
+      <div class="lesson">
+        <div class="lesson__num">1.1</div>
+        <div class="lesson__title">Lesson one title</div>
+        <a class="lesson__link" href="lesson-1.html">Open&nbsp;&rarr;</a>
+      </div>
+      <div class="lesson">
+        <div class="lesson__num">1.2</div>
+        <div class="lesson__title">Lesson two title</div>
+        <a class="lesson__link" href="lesson-2.html">Open&nbsp;&rarr;</a>
+      </div>
+    </div>
+
+    <p class="placeholder-note"><strong>Note to Dr. Tromp:</strong> the modules and lessons above are a scaffold.
+      To fill them in, send me the `.imscc` file or a topic outline and I'll rebuild the course as lesson
+      pages here — each lesson is its own static HTML file under <code>courses/</code>.</p>
+  </section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <p class="footer__copy">&copy; 2026 Dr. Jolanda G. Tromp. All rights reserved.</p>
+      <a href="../membership.html" class="footer__top" aria-label="Back to membership">&larr; Membership</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script>
+'use strict';
+
+/* ── Access code ─────────────────────────────────────────────
+   Free membership → this is a LIGHTWEIGHT gate, not real security
+   (the code lives in client-side source). Change it freely. */
+const ACCESS_CODE = 'JOLANDA-COURSE-2026';
+
+const gate = document.getElementById('gate');
+const lessons = document.getElementById('lessons');
+const form = document.getElementById('gateForm');
+const codeInput = document.getElementById('gateCode');
+const err = document.getElementById('gateErr');
+
+function unlock() {
+  gate.style.display = 'none';
+  lessons.classList.add('lessons--open');
+  lessons.style.display = 'block';
+}
+
+// Unlock immediately if a valid code is already in the URL (shareable link)
+const params = new URLSearchParams(window.location.search);
+if (params.get('code') === ACCESS_CODE) {
+  unlock();
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (codeInput.value.trim().toUpperCase() === ACCESS_CODE) {
+    err.textContent = '';
+    unlock();
+  } else {
+    err.textContent = 'That code did not work. Check your email and try again.';
+  }
+});
+</script>
+<script src="../script.js" defer></script>
+</body>
+</html>
