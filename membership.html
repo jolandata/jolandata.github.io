@@ -132,6 +132,39 @@
     font-size: var(--fs-small);
     margin-bottom: 1.25rem;
   }
+  /* ─── SITEnetwork video panel ─── */
+  .mb__video {
+    max-width: 720px;
+    margin: 2rem auto 0;
+    text-align: center;
+  }
+  .mb__video-frame {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1rem;
+    overflow: hidden;
+  }
+  .mb__video-player {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    background: #000;
+    aspect-ratio: 16 / 9;
+  }
+  .mb__video-caption {
+    margin-top: 0.9rem;
+    color: var(--text-secondary);
+    font-size: var(--fs-small);
+  }
+  .mb__video-caption a {
+    color: var(--accent-xr);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition);
+  }
+  .mb__video-caption a:hover { border-color: var(--accent-xr); }
 </style>
 </head>
 <body>
@@ -204,6 +237,21 @@
     <h2>Already a member?</h2>
     <p>Head straight to the course portal to pick up where you left off.</p>
     <a class="btn btn--primary" href="courses/index.html">Access the course &rarr;</a>
+  </section>
+
+  <!-- ═══════════ SITEnetwork VIDEO ═══════════ -->
+  <section class="mb__video" aria-label="SITEnetwork video">
+    <div class="mb__video-frame">
+      <video class="mb__video-player" controls preload="metadata" playsinline>
+        <source src="media/sitenetwork-0108.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p class="mb__video-caption">
+      <a href="https://www.sitenetwork.io/expertise" target="_blank" rel="noopener">
+        SITEnetwork, Cultural Heritage Preservation and Sharing. Get involved.
+      </a>
+    </p>
   </section>
 
 </main>
