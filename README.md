@@ -69,6 +69,8 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 | style.css | 🚀 Deployed | GitHub Pages |
 | script.js | 🚀 Deployed | GitHub Pages |
 | publications.html | 🚀 Live | `https://jolandata.github.io/publications.html` |
+| privacy.html | 🚀 Live | `https://jolandata.github.io/privacy.html` |
+| terms.html | 🚀 Live | `https://jolandata.github.io/terms.html` |
 
 ## KEY FILES
 
@@ -78,7 +80,9 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 | `docs/MARKET-ANALYSIS.md` | Gate 2 — Viability, competition, tech stack |
 | `docs/DESIGN.md` | Gate 3 — Visual identity, layout, copy, architecture |
 | `docs/IMPLEMENTATION-PLAN.md` | Gate 4 — Build phases, delegation, timeline |
-| `docs/TEST-RESULTS.md` | Gate 6 — Test results and launch sign-off |
+| `TEST-RESULTS.md` | Gate 6 — Test results and launch sign-off |
+| `privacy.html` | 🚀 Privacy Policy (MailerLite/GitHub Pages/Google Fonts processors, GDPR rights) |
+| `terms.html` | 🚀 Terms of Use (copyright, course library rules, disclaimers) |
 | `index.html` | 🚀 Built site (8 sections, semantic HTML5) |
 | `style.css` | 🚀 Styles (modern CSS, responsive, dark mode) |
 | `script.js` | 🚀 Interactivity (scroll effects, form, nav) |
@@ -95,6 +99,11 @@ Create a brand website for Jolanda's Business — a creative, tech-forward singl
 — None
 
 ## WORK LOG
+
+### 2026-11-11
+
+- Added **Privacy Policy** (`privacy.html`) and **Terms of Use** (`terms.html`), matching the site design (page hero + legal content layout). Privacy policy covers MailerLite (newsletter/membership), GitHub Pages, Google Fonts, GDPR rights; terms cover copyright/AI-training restriction, free course library rules, disclaimers.
+- Added **Privacy / Terms links to the footer on all pages** (index, Publications, GenXR Watch, Membership) via a new `.footer__links` nav style.
 
 ### 2026-09-21
 
